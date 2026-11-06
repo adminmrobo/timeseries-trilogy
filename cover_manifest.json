@@ -1,0 +1,236 @@
+{
+  "series_ko": "시계열 3부작 — ARIMA와 LSTM",
+  "title_ko": "시계열 3부작 — ARIMA와 LSTM",
+  "site_title": "시계열 3부작 · 목차",
+  "site_url": "https://adminmrobo.github.io/timeseries-trilogy/",
+  "ontology": {
+    "pages": [
+      {
+        "path": "00_answers.html",
+        "kg": false,
+        "export": false
+      },
+      {
+        "path": "00_index.html",
+        "kg": false,
+        "export": false
+      },
+      {
+        "path": "1_1_lookback_window.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "1_2_split.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "1_3_arima14.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "1_4_multi_vs_rolling.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "1_5_three_runners.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "1_6_samples.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "1_7_duel_summary.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "2_1_calculator_vs_reader.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "2_2_lstm_gates.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "2_3_weighted_sum_vs_combination.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "2_4_flat_vs_curved.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "2_5_new_coordinates.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "2_6_feature_engineering.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "2_7_duel_summary.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "3_1_hidden_state.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "3_2_lifting_dimensions.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "3_3_baseline_first.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "3_4_capacity_and_search.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "3_5_overfitting_restraint.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "3_6_neural_irony.html",
+        "kg": true,
+        "export": true
+      },
+      {
+        "path": "3_7_duel_and_wrapup.html",
+        "kg": true,
+        "export": true
+      }
+    ],
+    "files": [
+      "docs/KG_00_registry.json"
+    ]
+  },
+  "i18n": {
+    "langs": [
+      "ko",
+      "en",
+      "zh",
+      "ja",
+      "uz",
+      "ru",
+      "vi"
+    ],
+    "pages": {
+      "ko": 23,
+      "en": 23,
+      "zh": 23,
+      "ja": 23,
+      "uz": 23,
+      "ru": 23,
+      "vi": 23
+    },
+    "readme_langs": [
+      "ko",
+      "en",
+      "zh",
+      "ja",
+      "uz",
+      "ru",
+      "vi"
+    ]
+  },
+  "items": [
+    {
+      "id": "cover_index",
+      "role": "cover",
+      "path": "assets/img/cover_index.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "characters": [
+        "doc",
+        "asst",
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "Website top cover illustration, wide 16:9. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: wide night laboratory with test tube racks, stacks of lab notebooks, a blank chalkboard and a small server rack; a long paper ribbon stretches across the whole back wall from end to end, showing one hand-drawn line chart that rises and falls like daily sales, with no grid labels and no numbers; three empty transparent picture frames of different widths (short, medium, long) hang on the ribbon like sliding windows. All four characters together: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center back and stretching one arm along the ribbon to point at it; girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the front right side holding a clipboard with a blank checklist and looking up at the ribbon; anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, holding up the shortest frame with both hands against the ribbon; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, lifting the longest frame with its gray arms, the abacus bead on its antenna glowing softly. Size consistency: scientist is the tallest, the girl slightly shorter, the robot about half the scientist's height on its treads, the fruit fly about one third of the scientist's height. Visual metaphor of the topic: one long time-series line seen through windows of different lengths, without any text. Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the long chart ribbon and the three frames. Mood: curious, friendly rivalry, the moment before the result. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "cover_ch1",
+      "role": "cover",
+      "path": "assets/img/cover_ch1.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "characters": [
+        "doc",
+        "asst",
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "Website top cover illustration, wide 16:9. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, with warm golden lamp light in this room. Scene: cozy accounting room beside the lab, a giant wooden abacus on the back wall, leather ledgers with blank striped pages, a round vault door, a brass scale; on a long wooden desk a very long strip of ledger pages is unrolled from left to right, one blank striped cell per day, and two empty wooden picture frames ride on a thin brass rail above it — a short frame placed near the start of the strip and a long frame placed much further along. All four characters together: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center back holding a small brass scale in one hand and glancing from one frame to the other; girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the back left side opening a thick leather ledger and turning a page; anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, pushing the short frame one step along the rail; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, standing beside the long frame and flicking a bead on a wooden abacus with one arm. Size consistency: scientist is the tallest, the girl slightly shorter, the robot about half the scientist's height on its treads, the fruit fly about one third of the scientist's height. Visual metaphor of the topic: a short window and a long window looking back over the same daily ledger, the long one starting later, without any text. Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the ledger strip and the two frames. Mood: curious, friendly rivalry, the moment before the result. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "cover_ch2",
+      "role": "cover",
+      "path": "assets/img/cover_ch2.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "characters": [
+        "doc",
+        "asst",
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "Website top cover illustration, wide 16:9. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a small reading room with tall bookshelves and a rolling ladder, rendered as part of the same night lab world, purple lab light spilling in from one side; in the middle of a large desk stands one single empty wooden window frame. On the left half of the desk: a straight wooden ruler, a brass mechanical calculator and a flat clear glass plate. On the right half: open books from which glowing threads rise, weave together and form a softly curved shimmering cloth, with three tiny floating doors among the threads — one open, one half open, one closed. All four characters together: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center back and leaning over the window frame, both arms spread to point at the left side and the right side at the same time; girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing on the rolling ladder at the back right, pulling a book from the shelf and looking down at the desk; anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, one hand resting on the brass calculator keys and the other holding the straight ruler; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, winding a few glowing threads around its gray arm and gently opening one of the tiny doors. Size consistency: scientist is the tallest, the girl slightly shorter, the robot about half the scientist's height on its treads, the fruit fly about one third of the scientist's height. Visual metaphor of the topic: the same window read in two ways — a straight weighted sum on a flat plate versus woven threads forming a curved surface with small gates, without any text. Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the single window frame in the middle of the desk. Mood: curious, friendly rivalry, the moment before the result. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
+      "source_of": null,
+      "status": "redraw"
+    },
+    {
+      "id": "cover_ch3",
+      "role": "cover",
+      "path": "assets/img/cover_ch3.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "characters": [
+        "doc",
+        "asst",
+        "fly",
+        "jupanbot"
+      ],
+      "robot": "jupanbot-v2",
+      "prompt_en": "Website top cover illustration, wide 16:9. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a small dark stage in a corner of the night lab, rendered as part of the same night lab world, purple lab light spilling in from behind a translucent curtain at the back, vague soft shadow shapes visible behind the curtain; on the floor lies a flat board scattered with mixed magenta and green dots; the dots float upward from the board into a glowing transparent glass cube hovering in the air, and inside the cube one thin sheet of light cleanly separates the magenta dots from the green dots. No microscope, no dissection tools. All four characters together: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center back raising both hands from low to high as if lifting the dots up into the cube; girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the back left side carefully holding a small box of wax-sealed envelopes in both arms; anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, crouching close to the flat board and inspecting the dots with a magnifying glass; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, looking up at the glowing cube with sparkling star-shaped pixel eyes on its screen. Size consistency: scientist is the tallest, the girl slightly shorter, the robot about half the scientist's height on its treads, the fruit fly about one third of the scientist's height. Visual metaphor of the topic: mixed points that cannot be split on a flat board become separable once lifted into a higher-dimensional cube, with hidden states as shadows behind a curtain, without any text. Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the glowing glass cube. Mood: curious, friendly rivalry, the moment before the result. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
+      "source_of": null,
+      "status": "redraw"
+    }
+  ],
+  "updated": "2026-11-07"
+}
