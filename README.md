@@ -1,3 +1,5 @@
+![시계열 3부작 표지](assets/img/cover_index.webp)
+
 **[한국어](#ko) · [English](#en) · [中文](#zh) · [日本語](#ja) · [Oʻzbekcha](#uz) · [Русский](#ru) · [Tiếng Việt](#vi)**
 
 ---
@@ -62,8 +64,9 @@ lookback 14일과 window 14일은 같은 말일까? 같은 창을 보고도 ARIM
 | `1_1_…html` ~ `3_7_…html` | 본문 21쪽 (그림이 모두 들어 있는 단일 파일) |
 | `cover_manifest.json` | 표지·온톨로지·번역 현황 목록 (현황판용) |
 | `docs/` | 쪽별 이미지 명세서, 표지 지시문(`COVER_PROMPTS_timeseries.md`), 목차 헤드·썸네일 지시문(`THUMB_PROMPTS_timeseries.md`), 지식 색인 등록분 |
+| `assets/img/` | 표지 4장(목차·1~3부, 1600·960 WebP), 목차 헤드 배경, 썸네일 21장, 공유 미리보기, `src/`에 받은 원본 PNG |
 
-표지·썸네일 그림은 아직 없고, 받기 전까지는 캐릭터 넷이 선 대체 표지가 보입니다.
+그림은 Genspark로 만들었습니다(2026-11-11).
 
 ## 참고 문헌
 

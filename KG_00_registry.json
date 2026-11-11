@@ -1,0 +1,2638 @@
+{
+ "version": "ts3-reg-1.0",
+ "series": "시계열 3부작 — ARIMA와 LSTM",
+ "updated": "2026-10-29",
+ "ids": {
+  "lab:concept/time-series": {
+   "ko": "시계열",
+   "en": "time series",
+   "type": "Concept",
+   "pages": [
+    "1-1",
+    "1-2"
+   ]
+  },
+  "lab:concept/lookback": {
+   "ko": "룩백 (lookback)",
+   "en": "lookback",
+   "type": "Concept",
+   "pages": [
+    "1-1",
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5",
+    "1-6",
+    "1-7",
+    "2-1",
+    "2-2",
+    "2-7"
+   ]
+  },
+  "lab:concept/sliding-window": {
+   "ko": "윈도우 (창)",
+   "en": "sliding window",
+   "type": "Concept",
+   "pages": [
+    "1-1",
+    "1-3",
+    "1-5",
+    "1-6"
+   ]
+  },
+  "lab:concept/ar-order": {
+   "ko": "AR 차수 p",
+   "en": "autoregressive order",
+   "type": "Concept",
+   "pages": [
+    "1-1",
+    "1-3",
+    "1-4",
+    "1-5",
+    "1-6",
+    "1-7"
+   ]
+  },
+  "lab:method/arima": {
+   "ko": "ARIMA",
+   "en": "ARIMA",
+   "type": "Method",
+   "pages": [
+    "1-1",
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5",
+    "1-6",
+    "1-7",
+    "2-1",
+    "2-3",
+    "2-4",
+    "2-7",
+    "3-1",
+    "3-3",
+    "3-4",
+    "3-7"
+   ]
+  },
+  "lab:method/lstm": {
+   "ko": "LSTM",
+   "en": "long short-term memory",
+   "type": "Method",
+   "pages": [
+    "1-1",
+    "1-6",
+    "1-7",
+    "2-1",
+    "2-2",
+    "2-5",
+    "2-6",
+    "2-7",
+    "3-1",
+    "3-2",
+    "3-3",
+    "3-4",
+    "3-7"
+   ]
+  },
+  "lab:method/naive-forecast": {
+   "ko": "어제 값 그대로 (나이브 예측)",
+   "en": "naive forecast",
+   "type": "Method",
+   "pages": [
+    "1-1",
+    "3-3"
+   ]
+  },
+  "lab:task/one-step-forecast": {
+   "ko": "다음 날 예측",
+   "en": "one-step-ahead forecasting",
+   "type": "Task",
+   "pages": [
+    "1-1",
+    "2-1",
+    "3-3",
+    "3-7"
+   ]
+  },
+  "lab:limitation/fixed-weights": {
+   "ko": "입력과 무관한 고정 비중",
+   "en": "input-independent fixed weights",
+   "type": "Limitation",
+   "pages": [
+    "1-1",
+    "2-1"
+   ]
+  },
+  "lab:analogy/sales record-pages": {
+   "ko": "매출 기록을 며칠 치 펼쳐 보기",
+   "en": "opening sales record pages",
+   "type": "Analogy",
+   "pages": [
+    "1-1",
+    "1-7"
+   ]
+  },
+  "lab:concept/test-set": {
+   "ko": "시험 데이터",
+   "en": "test set",
+   "type": "Concept",
+   "pages": [
+    "1-1",
+    "1-2",
+    "1-4",
+    "1-7",
+    "3-3",
+    "3-5",
+    "3-7"
+   ]
+  },
+  "lab:term/coefficient": {
+   "ko": "계수",
+   "en": "coefficient",
+   "type": "Term",
+   "pages": [
+    "1-1",
+    "1-3",
+    "1-4",
+    "1-5",
+    "1-6",
+    "1-7",
+    "2-1",
+    "2-3",
+    "2-4"
+   ]
+  },
+  "lab:term/phi": {
+   "ko": "φ",
+   "en": "phi",
+   "type": "Term",
+   "pages": [
+    "1-1",
+    "1-3"
+   ]
+  },
+  "lab:term/gate": {
+   "ko": "게이트",
+   "en": "gate",
+   "type": "Term",
+   "pages": [
+    "1-1",
+    "2-1",
+    "2-2",
+    "2-7",
+    "3-1"
+   ]
+  },
+  "lab:term/linear": {
+   "ko": "선형",
+   "en": "linear",
+   "type": "Term",
+   "pages": [
+    "1-1",
+    "1-3",
+    "1-5",
+    "2-1",
+    "2-3",
+    "2-4",
+    "2-5",
+    "2-6",
+    "2-7",
+    "3-2",
+    "3-3"
+   ]
+  },
+  "lab:term/nonlinear": {
+   "ko": "비선형",
+   "en": "nonlinear",
+   "type": "Term",
+   "pages": [
+    "1-1",
+    "2-1",
+    "2-3",
+    "2-4",
+    "2-5",
+    "2-7",
+    "3-2",
+    "3-3",
+    "3-4",
+    "3-6"
+   ]
+  },
+  "lab:concept/validation-set": {
+   "ko": "검증 데이터",
+   "en": "validation set",
+   "type": "Concept",
+   "pages": [
+    "1-1",
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5",
+    "1-6",
+    "1-7",
+    "2-1",
+    "2-3",
+    "2-4",
+    "2-6",
+    "2-7",
+    "3-3",
+    "3-5",
+    "3-7"
+   ]
+  },
+  "lab:term/sequence": {
+   "ko": "시퀀스",
+   "en": "sequence",
+   "type": "Term",
+   "pages": [
+    "1-1",
+    "1-6",
+    "2-1",
+    "2-2"
+   ]
+  },
+  "lab:concept/training-sample": {
+   "ko": "학습 샘플",
+   "en": "training sample",
+   "type": "Concept",
+   "pages": [
+    "1-1",
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5",
+    "1-6",
+    "1-7"
+   ]
+  },
+  "lab:sim/1-1-window": {
+   "ko": "창 밀어 보기",
+   "en": "sliding window explorer",
+   "type": "Simulation",
+   "pages": [
+    "1-1"
+   ]
+  },
+  "lab:sim/1-1-coef": {
+   "ko": "고정 계수 막대",
+   "en": "fixed coefficient bars",
+   "type": "Simulation",
+   "pages": [
+    "1-1"
+   ]
+  },
+  "lab:work/box1970time": {
+   "ko": "Time Series Analysis: Forecasting and Control",
+   "en": "Time Series Analysis: Forecasting and Control",
+   "type": "Work",
+   "pages": [
+    "1-1",
+    "1-3",
+    "1-5",
+    "1-6",
+    "1-7",
+    "2-1",
+    "2-3",
+    "3-7"
+   ]
+  },
+  "lab:work/hochreiter1997long": {
+   "ko": "Long Short-Term Memory",
+   "en": "Long Short-Term Memory",
+   "type": "Work",
+   "pages": [
+    "1-1",
+    "2-1",
+    "2-2",
+    "2-7",
+    "3-1",
+    "3-7"
+   ]
+  },
+  "lab:work/gers2000learning": {
+   "ko": "Learning to Forget: Continual Prediction with LSTM",
+   "en": "Learning to Forget: Continual Prediction with LSTM",
+   "type": "Work",
+   "pages": [
+    "1-1",
+    "2-2",
+    "2-7",
+    "3-1"
+   ]
+  },
+  "lab:claim/box-jenkins-arima": {
+   "ko": "ARIMA 방법론은 Box와 Jenkins(1970)가 체계화했다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "1-1",
+    "1-3",
+    "1-5",
+    "1-7",
+    "2-1",
+    "2-3",
+    "3-7"
+   ]
+  },
+  "lab:claim/lstm-1997": {
+   "ko": "LSTM은 Hochreiter와 Schmidhuber(1997)가 제안했다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "1-1",
+    "2-1",
+    "2-2",
+    "2-7",
+    "3-1",
+    "3-7"
+   ]
+  },
+  "lab:claim/forget-gate-2000": {
+   "ko": "잊기 게이트는 Gers 외(2000)가 LSTM에 더했다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "1-1",
+    "2-2",
+    "2-7",
+    "3-1"
+   ]
+  },
+  "lab:question/1-1-core": {
+   "ko": "과거 며칠을 펼쳐 놓고 내일 매출을 맞힐 것인가?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-1"
+   ]
+  },
+  "lab:question/1-1-how-read": {
+   "ko": "같은 창을 두 모델은 어떻게 다르게 읽는가?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-1"
+   ]
+  },
+  "lab:concept/temporal-split": {
+   "ko": "시간 순 분할",
+   "en": "temporal train/validation/test split",
+   "type": "Concept",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:concept/data-leakage": {
+   "ko": "데이터 누수",
+   "en": "data leakage",
+   "type": "Concept",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:method/random-split": {
+   "ko": "무작위 분할",
+   "en": "random shuffle split",
+   "type": "Method",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:method/neighbor-average": {
+   "ko": "앞뒤 보간 (내일 엿보기)",
+   "en": "neighbor interpolation",
+   "type": "Method",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:limitation/single-validation-window": {
+   "ko": "검증 구간 하나의 치우침",
+   "en": "single validation window bias",
+   "type": "Limitation",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:analogy/three-sales record-volumes": {
+   "ko": "매출 기록 세 권 (공부·고르기·금고)",
+   "en": "three sales record volumes",
+   "type": "Analogy",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:metric/mae": {
+   "ko": "MAE",
+   "en": "mean absolute error",
+   "type": "Metric",
+   "pages": [
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5",
+    "1-6",
+    "1-7",
+    "2-3",
+    "2-6",
+    "2-7",
+    "3-3",
+    "3-5",
+    "3-7"
+   ]
+  },
+  "lab:method/rolling-forecast": {
+   "ko": "롤링 예측",
+   "en": "rolling forecast",
+   "type": "Method",
+   "pages": [
+    "1-2",
+    "1-4",
+    "1-7"
+   ]
+  },
+  "lab:concept/weekly-seasonality": {
+   "ko": "주간 패턴",
+   "en": "weekly seasonality",
+   "type": "Concept",
+   "pages": [
+    "1-2",
+    "1-3",
+    "1-5",
+    "1-7"
+   ]
+  },
+  "lab:sim/1-2-split": {
+   "ko": "나누는 법 비교 띠",
+   "en": "split comparison strip",
+   "type": "Simulation",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:sim/1-2-dates": {
+   "ko": "날짜 계산기",
+   "en": "date calculator",
+   "type": "Simulation",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:work/hyndman2021fpp3": {
+   "ko": "Forecasting: Principles and Practice (3rd ed.)",
+   "en": "Forecasting: Principles and Practice (3rd ed.)",
+   "type": "Work",
+   "pages": [
+    "1-2",
+    "1-4",
+    "3-5"
+   ]
+  },
+  "lab:claim/ts-cv-rolling": {
+   "ko": "시계열 평가는 시간 순서를 지킨 분할과 굴려 가는 원점(rolling origin) 평가를 쓴다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "1-2",
+    "1-4",
+    "3-5"
+   ]
+  },
+  "lab:question/1-2-core": {
+   "ko": "시계열은 왜 날짜 순서대로 잘라야 할까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:question/1-2-season": {
+   "ko": "검증 50일이 특정 계절에 몰리면 고른 lookback도 그 계절에만 맞을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-2"
+   ]
+  },
+  "lab:method/ar-model": {
+   "ko": "AR(p) 자기회귀",
+   "en": "autoregressive model",
+   "type": "Method",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:term/differencing": {
+   "ko": "차분 (d)",
+   "en": "differencing",
+   "type": "Term",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:term/ma-term": {
+   "ko": "이동평균항 (q)",
+   "en": "moving-average term",
+   "type": "Term",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:method/least-squares": {
+   "ko": "최소제곱 추정",
+   "en": "least squares",
+   "type": "Method",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:method/seasonal-naive": {
+   "ko": "지난주 같은 요일",
+   "en": "seasonal naive forecast",
+   "type": "Method",
+   "pages": [
+    "1-3",
+    "3-3"
+   ]
+  },
+  "lab:limitation/collinearity": {
+   "ko": "계수끼리 몫 나누기 (다중공선성)",
+   "en": "collinearity among lags",
+   "type": "Limitation",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:limitation/trend-nonstationary": {
+   "ko": "움직이는 평균 (추세)",
+   "en": "trend / non-stationarity",
+   "type": "Limitation",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:concept/contribution": {
+   "ko": "기여도 (φᵢ × 값)",
+   "en": "lag contribution",
+   "type": "Concept",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:analogy/ratio-table": {
+   "ko": "비율표 계산",
+   "en": "fixed ratio table",
+   "type": "Analogy",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:sim/1-3-contrib": {
+   "ko": "기여도 막대",
+   "en": "lag contribution bars",
+   "type": "Simulation",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:sim/1-3-diff": {
+   "ko": "차분 보기",
+   "en": "differencing view",
+   "type": "Simulation",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:question/1-3-core": {
+   "ko": "8/21 하루를 맞히는 데 정확히 어떤 숫자들이 쓰일까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:question/1-3-ma": {
+   "ko": "이 매출 기록에 MA항을 더하면 검증 오차가 얼마나 줄까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-3"
+   ]
+  },
+  "lab:method/multi-step-forecast": {
+   "ko": "다단계 예측",
+   "en": "recursive multi-step forecast",
+   "type": "Method",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:concept/error-accumulation": {
+   "ko": "오차 누적",
+   "en": "error accumulation",
+   "type": "Concept",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:concept/noise-persistence": {
+   "ko": "잡음 지속성 (φ)",
+   "en": "noise persistence",
+   "type": "Concept",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:concept/refit": {
+   "ko": "고른 뒤 다시 학습",
+   "en": "refit on train+validation",
+   "type": "Concept",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:concept/model-selection": {
+   "ko": "검증으로 고르기",
+   "en": "model selection",
+   "type": "Concept",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:limitation/needs-fresh-actuals": {
+   "ko": "실제값이 제때 들어와야 함",
+   "en": "requires timely actuals",
+   "type": "Limitation",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:limitation/single-test-window": {
+   "ko": "시험 구간 하나의 우연",
+   "en": "single test window",
+   "type": "Limitation",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:method/rolling-origin-eval": {
+   "ko": "굴려 가는 원점 평가",
+   "en": "rolling-origin evaluation",
+   "type": "Method",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:analogy/plan-vs-diary": {
+   "ko": "50쪽 계획표 vs 매일 매출 기록",
+   "en": "plan ahead vs daily diary",
+   "type": "Analogy",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:sim/1-4-horizon": {
+   "ko": "오차 누적 비교",
+   "en": "multi-step vs rolling",
+   "type": "Simulation",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:sim/1-4-procedure": {
+   "ko": "고르기→재학습→시험 절차",
+   "en": "selection procedure",
+   "type": "Simulation",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:question/1-4-core": {
+   "ko": "예측을 한 번에 길게 할 때와 하루씩 고쳐 갈 때, 오차는 어떻게 다를까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:question/1-4-direct": {
+   "ko": "다단계 대신 “h일 뒤 전용 모델”을 따로 학습하면(직접 예측) 오차 누적을 피할 수 있을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-4"
+   ]
+  },
+  "lab:method/ar7": {
+   "ko": "AR(7) 단거리 선수",
+   "en": "AR(7)",
+   "type": "Method",
+   "pages": [
+    "1-5"
+   ]
+  },
+  "lab:method/ar14": {
+   "ko": "AR(14) 중거리 선수",
+   "en": "AR(14)",
+   "type": "Method",
+   "pages": [
+    "1-5",
+    "1-7"
+   ]
+  },
+  "lab:method/ar30": {
+   "ko": "AR(30) 장거리 선수",
+   "en": "AR(30)",
+   "type": "Method",
+   "pages": [
+    "1-5",
+    "1-7"
+   ]
+  },
+  "lab:concept/train-vs-validation-gap": {
+   "ko": "훈련-검증 성적 차이",
+   "en": "generalization gap",
+   "type": "Concept",
+   "pages": [
+    "1-5"
+   ]
+  },
+  "lab:limitation/stale-information": {
+   "ko": "오래된 정보에 끌림",
+   "en": "stale information",
+   "type": "Limitation",
+   "pages": [
+    "1-5"
+   ]
+  },
+  "lab:limitation/few-samples-many-params": {
+   "ko": "샘플은 적고 계수는 많음",
+   "en": "few samples, many parameters",
+   "type": "Limitation",
+   "pages": [
+    "1-5",
+    "1-6",
+    "1-7"
+   ]
+  },
+  "lab:analogy/runners": {
+   "ko": "단거리·중거리·장거리 선수",
+   "en": "three runners",
+   "type": "Analogy",
+   "pages": [
+    "1-5"
+   ]
+  },
+  "lab:concept/overfitting": {
+   "ko": "과적합",
+   "en": "overfitting",
+   "type": "Concept",
+   "pages": [
+    "1-5",
+    "1-6",
+    "1-7",
+    "2-3",
+    "2-4",
+    "2-6",
+    "2-7",
+    "3-4",
+    "3-5",
+    "3-7"
+   ]
+  },
+  "lab:sim/1-5-weekday": {
+   "ko": "요일 띠",
+   "en": "weekday strip",
+   "type": "Simulation",
+   "pages": [
+    "1-5"
+   ]
+  },
+  "lab:sim/1-5-runners": {
+   "ko": "세 선수 성적",
+   "en": "three-runner scores",
+   "type": "Simulation",
+   "pages": [
+    "1-5"
+   ]
+  },
+  "lab:question/1-5-core": {
+   "ko": "같은 매출 기록을 7일·14일·30일씩 보는 세 모델은 무엇을 보고, 무엇을 놓칠까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-5"
+   ]
+  },
+  "lab:question/1-5-monthly": {
+   "ko": "월간 패턴(급여일 등)이 있는 매출 기록이라면 30일 선수의 이점은 더 커질까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-5"
+   ]
+  },
+  "lab:concept/sample-count-formula": {
+   "ko": "샘플 수 = n − L",
+   "en": "sample count n − L",
+   "type": "Concept",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:concept/degrees-of-freedom": {
+   "ko": "남는 자유도",
+   "en": "residual degrees of freedom",
+   "type": "Concept",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:method/ridge": {
+   "ko": "능형 회귀 (정규화)",
+   "en": "ridge regularization",
+   "type": "Method",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:limitation/overlapping-samples": {
+   "ko": "겹치는 샘플",
+   "en": "overlapping samples",
+   "type": "Limitation",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:analogy/practice-sheets": {
+   "ko": "연습 문제 만들기",
+   "en": "practice sheets",
+   "type": "Analogy",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:sim/1-6-generator": {
+   "ko": "샘플 생성기",
+   "en": "sample generator",
+   "type": "Simulation",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:sim/1-6-length": {
+   "ko": "훈련 기간 실험",
+   "en": "training-length sweep",
+   "type": "Simulation",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:claim/conditional-ls": {
+   "ko": "조건부 최소제곱에서는 앞의 p개 관측이 초기값 역할만 한다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:question/1-6-core": {
+   "ko": "같은 200일인데 왜 학습 샘플 수가 193·186·170으로 달라질까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:question/1-6-sparse-lags": {
+   "ko": "7·14·21·28일만 쓰는 성긴 AR이면 30일의 정보를 계수 5개로 얻을 수 있을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-6"
+   ]
+  },
+  "lab:question/1-7-duel": {
+   "ko": "200일 매출 기록에서 14일 창과 30일 창, 검증에서 누가 더 정확할까?",
+   "en": "duel: lookback 14 vs 30",
+   "type": "Question",
+   "pages": [
+    "1-7"
+   ]
+  },
+  "lab:concept/info-vs-practice": {
+   "ko": "정보량 vs 연습 횟수 거래",
+   "en": "information vs number of samples trade-off",
+   "type": "Concept",
+   "pages": [
+    "1-7"
+   ]
+  },
+  "lab:limitation/single-seed": {
+   "ko": "한 매출 기록·한 시드의 결론",
+   "en": "single-seed conclusion",
+   "type": "Limitation",
+   "pages": [
+    "1-7"
+   ]
+  },
+  "lab:sim/1-7-duel": {
+   "ko": "14일 vs 30일 대결 계산",
+   "en": "duel computation",
+   "type": "Simulation",
+   "pages": [
+    "1-7"
+   ]
+  },
+  "lab:question/1-7-core": {
+   "ko": "200일 매출 기록에서 14일 창과 30일 창, 검증에서 누가 더 정확할까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "1-7"
+   ]
+  },
+  "lab:concept/recurrent-state-update": {
+   "ko": "상태 갱신 (한 칸씩 읽기)",
+   "en": "recurrent state update",
+   "type": "Concept",
+   "pages": [
+    "2-1",
+    "2-7"
+   ]
+  },
+  "lab:limitation/opaque-state": {
+   "ko": "읽기 어려운 내부 상태",
+   "en": "opaque hidden state",
+   "type": "Limitation",
+   "pages": [
+    "2-1"
+   ]
+  },
+  "lab:analogy/calculator-vs-reader": {
+   "ko": "계산기형 선수 vs 독서형 선수",
+   "en": "calculator vs reader",
+   "type": "Analogy",
+   "pages": [
+    "2-1"
+   ]
+  },
+  "lab:term/weighted-sum": {
+   "ko": "가중합",
+   "en": "weighted sum",
+   "type": "Term",
+   "pages": [
+    "2-1",
+    "2-3",
+    "2-7"
+   ]
+  },
+  "lab:term/cell-state": {
+   "ko": "셀 상태",
+   "en": "cell state",
+   "type": "Term",
+   "pages": [
+    "2-1",
+    "2-2",
+    "2-7",
+    "3-1"
+   ]
+  },
+  "lab:term/hidden-state": {
+   "ko": "은닉 상태",
+   "en": "hidden state",
+   "type": "Term",
+   "pages": [
+    "2-1",
+    "2-2",
+    "2-4",
+    "2-5",
+    "2-6",
+    "2-7"
+   ]
+  },
+  "lab:sim/2-1-two-ways": {
+   "ko": "같은 7칸, 두 방식",
+   "en": "same window, two processors",
+   "type": "Simulation",
+   "pages": [
+    "2-1"
+   ]
+  },
+  "lab:sim/2-1-act": {
+   "ko": "검증 14일 두 선수",
+   "en": "validation walk",
+   "type": "Simulation",
+   "pages": [
+    "2-1"
+   ]
+  },
+  "lab:question/2-1-core": {
+   "ko": "같은 7일 창을 받았는데, 왜 두 모델은 다른 답을 낼까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-1"
+   ]
+  },
+  "lab:question/2-1-gates": {
+   "ko": "게이트는 실제로 어떤 값을 갖고, 언제 열리고 닫히나?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-1"
+   ]
+  },
+  "lab:method/lstm-1997": {
+   "ko": "1997 원형 LSTM (잊기 게이트 없음)",
+   "en": "original LSTM (1997)",
+   "type": "Method",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:limitation/no-forgetting": {
+   "ko": "기억을 비우지 못함",
+   "en": "cannot reset memory",
+   "type": "Limitation",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:analogy/notepad": {
+   "ko": "지우개·펜·입이 있는 메모장",
+   "en": "notepad with eraser and pen",
+   "type": "Analogy",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:term/forget-gate": {
+   "ko": "잊기 게이트",
+   "en": "forget gate",
+   "type": "Term",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:term/input-gate": {
+   "ko": "입력 게이트",
+   "en": "input gate",
+   "type": "Term",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:term/output-gate": {
+   "ko": "출력 게이트",
+   "en": "output gate",
+   "type": "Term",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:term/sigmoid": {
+   "ko": "σ",
+   "en": "sigmoid",
+   "type": "Term",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:term/tanh": {
+   "ko": "tanh",
+   "en": "hyperbolic tangent",
+   "type": "Term",
+   "pages": [
+    "2-2",
+    "2-3",
+    "2-4",
+    "2-5"
+   ]
+  },
+  "lab:term/backpropagation": {
+   "ko": "역전파",
+   "en": "backpropagation",
+   "type": "Term",
+   "pages": [
+    "2-2",
+    "2-5"
+   ]
+  },
+  "lab:sim/2-2-gate-map": {
+   "ko": "게이트 지도",
+   "en": "gate activation map",
+   "type": "Simulation",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:sim/2-2-memory-bag": {
+   "ko": "기억 주머니",
+   "en": "memory bag walk",
+   "type": "Simulation",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:question/2-2-core": {
+   "ko": "“기억할지 잊을지 그때그때 정한다”는 말은, 숫자로 보면 무엇일까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:question/2-2-meaning": {
+   "ko": "은닉 칸 하나하나는 무엇을 감지하고 있을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-2"
+   ]
+  },
+  "lab:concept/linear-combination": {
+   "ko": "가중합의 조정 (선형 결합)",
+   "en": "linear combination",
+   "type": "Concept",
+   "pages": [
+    "2-3"
+   ]
+  },
+  "lab:concept/nonlinear-combination": {
+   "ko": "비선형 조합",
+   "en": "nonlinear combination",
+   "type": "Concept",
+   "pages": [
+    "2-3",
+    "2-7"
+   ]
+  },
+  "lab:limitation/linear-only": {
+   "ko": "곧은 관계만 표현",
+   "en": "linear relations only",
+   "type": "Limitation",
+   "pages": [
+    "2-3",
+    "2-7"
+   ]
+  },
+  "lab:limitation/size-and-data": {
+   "ko": "크기·데이터가 허락하는 만큼만",
+   "en": "bounded by size and data",
+   "type": "Limitation",
+   "pages": [
+    "2-3"
+   ]
+  },
+  "lab:concept/universal-approximation": {
+   "ko": "보편 근사 (원리상 가능)",
+   "en": "universal approximation",
+   "type": "Concept",
+   "pages": [
+    "2-3"
+   ]
+  },
+  "lab:analogy/recipe-vs-chef": {
+   "ko": "레시피 비율표 vs 맛보는 요리사",
+   "en": "recipe ratio vs tasting chef",
+   "type": "Analogy",
+   "pages": [
+    "2-3"
+   ]
+  },
+  "lab:dataset/sales record-b": {
+   "ko": "매출 기록 B (헤논 사상 매출 기록)",
+   "en": "sales record B (Hénon map)",
+   "type": "Dataset",
+   "pages": [
+    "2-3"
+   ]
+  },
+  "lab:method/mlp": {
+   "ko": "MLP",
+   "en": "multilayer perceptron",
+   "type": "Method",
+   "pages": [
+    "2-3",
+    "2-4",
+    "2-5",
+    "2-6",
+    "3-3",
+    "3-4"
+   ]
+  },
+  "lab:term/hidden-layer": {
+   "ko": "은닉층",
+   "en": "hidden layer",
+   "type": "Term",
+   "pages": [
+    "2-3",
+    "2-4",
+    "2-5"
+   ]
+  },
+  "lab:term/hidden-unit": {
+   "ko": "은닉 뉴런",
+   "en": "hidden unit",
+   "type": "Term",
+   "pages": [
+    "2-3",
+    "2-4",
+    "2-5",
+    "2-6",
+    "3-4"
+   ]
+  },
+  "lab:term/gradient-descent": {
+   "ko": "경사하강",
+   "en": "gradient descent",
+   "type": "Term",
+   "pages": [
+    "2-3",
+    "2-5"
+   ]
+  },
+  "lab:sim/2-3-sales record-b": {
+   "ko": "매출 기록 B 겨루기",
+   "en": "sales record B comparison",
+   "type": "Simulation",
+   "pages": [
+    "2-3"
+   ]
+  },
+  "lab:sim/2-3-scatter": {
+   "ko": "어제→오늘 산점도",
+   "en": "lag scatter",
+   "type": "Simulation",
+   "pages": [
+    "2-3"
+   ]
+  },
+  "lab:question/2-3-core": {
+   "ko": "어제와 그제가 꼬여서 내일을 만든다면, 정해진 비율로 섞는 것만으로 충분할까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-3"
+   ]
+  },
+  "lab:question/2-3-geometry": {
+   "ko": "“섞기”와 “엮기”를 그림으로 보면 어떻게 다를까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-3"
+   ]
+  },
+  "lab:concept/input-space": {
+   "ko": "입력 공간 ℝ⁷",
+   "en": "input space",
+   "type": "Concept",
+   "pages": [
+    "2-4"
+   ]
+  },
+  "lab:concept/hidden-space": {
+   "ko": "은닉 공간 (새 좌표)",
+   "en": "hidden space",
+   "type": "Concept",
+   "pages": [
+    "2-4",
+    "2-5"
+   ]
+  },
+  "lab:concept/curved-surface": {
+   "ko": "휘어진 예측 면",
+   "en": "curved prediction surface",
+   "type": "Concept",
+   "pages": [
+    "2-4",
+    "2-7"
+   ]
+  },
+  "lab:limitation/flat-only": {
+   "ko": "평평한 면 하나뿐",
+   "en": "flat surface only",
+   "type": "Limitation",
+   "pages": [
+    "2-4"
+   ]
+  },
+  "lab:limitation/extrapolation": {
+   "ko": "데이터 밖 외삽 불확실",
+   "en": "unreliable extrapolation",
+   "type": "Limitation",
+   "pages": [
+    "2-4"
+   ]
+  },
+  "lab:analogy/flat-vs-folded-paper": {
+   "ko": "평평한 종이 vs 접은 종이",
+   "en": "flat vs folded paper",
+   "type": "Analogy",
+   "pages": [
+    "2-4"
+   ]
+  },
+  "lab:term/hyperplane": {
+   "ko": "초평면",
+   "en": "hyperplane",
+   "type": "Term",
+   "pages": [
+    "2-4",
+    "2-5"
+   ]
+  },
+  "lab:concept/representation-learning": {
+   "ko": "표현 학습",
+   "en": "representation learning",
+   "type": "Concept",
+   "pages": [
+    "2-4",
+    "2-5",
+    "2-6",
+    "2-7",
+    "3-1",
+    "3-2",
+    "3-7"
+   ]
+  },
+  "lab:sim/2-4-surface-map": {
+   "ko": "면 지도",
+   "en": "surface heatmaps",
+   "type": "Simulation",
+   "pages": [
+    "2-4"
+   ]
+  },
+  "lab:sim/2-4-slice": {
+   "ko": "단면 따라 걷기",
+   "en": "slice walk",
+   "type": "Simulation",
+   "pages": [
+    "2-4"
+   ]
+  },
+  "lab:question/2-4-core": {
+   "ko": "계수를 아무리 바꿔도 휘어진 면을 못 만든다면, 휘어진 면은 어디서 오나?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-4"
+   ]
+  },
+  "lab:question/2-4-what-axes": {
+   "ko": "은닉 공간의 새 축은 실제로 어떻게 생겼을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-4"
+   ]
+  },
+  "lab:dataset/xor-sales record-c": {
+   "ko": "매출 기록 C (엇갈린 무리)",
+   "en": "sales record C (XOR-like)",
+   "type": "Dataset",
+   "pages": [
+    "2-5"
+   ]
+  },
+  "lab:limitation/linear-boundary": {
+   "ko": "원래 좌표의 직선 경계 하나",
+   "en": "single linear boundary",
+   "type": "Limitation",
+   "pages": [
+    "2-5"
+   ]
+  },
+  "lab:limitation/opaque-axes": {
+   "ko": "읽기 어려운 새 축",
+   "en": "uninterpretable axes",
+   "type": "Limitation",
+   "pages": [
+    "2-5"
+   ]
+  },
+  "lab:analogy/new-viewpoint": {
+   "ko": "옆에서 다시 보기",
+   "en": "change of viewpoint",
+   "type": "Analogy",
+   "pages": [
+    "2-5"
+   ]
+  },
+  "lab:sim/2-5-morph": {
+   "ko": "점 옮기기",
+   "en": "input-to-hidden morph",
+   "type": "Simulation",
+   "pages": [
+    "2-5"
+   ]
+  },
+  "lab:sim/2-5-sorting": {
+   "ko": "새 점 분류",
+   "en": "new-point sorting",
+   "type": "Simulation",
+   "pages": [
+    "2-5"
+   ]
+  },
+  "lab:work/rumelhart1986learning": {
+   "ko": "Learning Representations by Back-Propagating Errors",
+   "en": "Learning Representations by Back-Propagating Errors",
+   "type": "Work",
+   "pages": [
+    "2-5",
+    "3-4",
+    "3-6"
+   ]
+  },
+  "lab:claim/rumelhart-representations": {
+   "ko": "Rumelhart 외(1986)는 역전파로 학습한 은닉 단위가 과제에 쓸모 있는 내부 표현을 만든다고 보고했다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "2-5"
+   ]
+  },
+  "lab:question/2-5-core": {
+   "ko": "곧은 선 하나로 못 나누던 점들이, 좌표만 바꾸면 나뉠 수 있을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-5"
+   ]
+  },
+  "lab:question/2-5-name-axes": {
+   "ko": "은닉 칸 하나하나에 이름을 붙일 수 있을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-5"
+   ]
+  },
+  "lab:method/hybrid-features": {
+   "ko": "사람 특성 + 학습 특성 섞기",
+   "en": "hybrid features",
+   "type": "Method",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:limitation/manual-design": {
+   "ko": "사람이 떠올린 것까지만",
+   "en": "limited to human ideas",
+   "type": "Limitation",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:limitation/unnamed-features": {
+   "ko": "이름 없는 특성",
+   "en": "unnamed learned features",
+   "type": "Limitation",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:analogy/accountant-indicators": {
+   "ko": "회계사의 지표 보고서",
+   "en": "accountant's indicators",
+   "type": "Analogy",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:dataset/sales record-d": {
+   "ko": "매출 기록 D (추세·요일·월 패턴)",
+   "en": "sales record D",
+   "type": "Dataset",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:method/linear-regression": {
+   "ko": "선형 회귀",
+   "en": "linear regression",
+   "type": "Method",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:method/feature-engineering": {
+   "ko": "특성공학",
+   "en": "feature engineering",
+   "type": "Method",
+   "pages": [
+    "2-6",
+    "2-7"
+   ]
+  },
+  "lab:concept/feature-learning": {
+   "ko": "특성 학습",
+   "en": "feature learning",
+   "type": "Concept",
+   "pages": [
+    "2-6",
+    "2-7"
+   ]
+  },
+  "lab:term/moving-average": {
+   "ko": "이동평균",
+   "en": "moving average",
+   "type": "Term",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:term/volatility": {
+   "ko": "변동성",
+   "en": "volatility",
+   "type": "Term",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:sim/2-6-indicators": {
+   "ko": "사람이 만든 지표",
+   "en": "hand-made indicators",
+   "type": "Simulation",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:sim/2-6-hidden-corr": {
+   "ko": "은닉 뉴런 상관",
+   "en": "hidden unit correlation",
+   "type": "Simulation",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:sim/2-6-three-way": {
+   "ko": "세 방식 겨루기",
+   "en": "three-way comparison",
+   "type": "Simulation",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:question/2-6-core": {
+   "ko": "이동평균·변동성 같은 지표를 사람이 만들 때와 모델이 만들 때, 무엇이 다를까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:question/2-6-when-hybrid": {
+   "ko": "우리 현장 데이터에서는 ①·②·③ 중 무엇이 이길까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-6"
+   ]
+  },
+  "lab:dataset/sales record-e": {
+   "ko": "매출 기록 E (반동 매출 기록)",
+   "en": "sales record E (tent map)",
+   "type": "Dataset",
+   "pages": [
+    "2-7"
+   ]
+  },
+  "lab:limitation/data-hungry": {
+   "ko": "데이터가 넉넉해야 함",
+   "en": "needs enough data",
+   "type": "Limitation",
+   "pages": [
+    "2-7"
+   ]
+  },
+  "lab:sim/2-7-duel": {
+   "ko": "반동 매출 기록 대결",
+   "en": "sales record E duel",
+   "type": "Simulation",
+   "pages": [
+    "2-7"
+   ]
+  },
+  "lab:question/2-7-core": {
+   "ko": "비선형 규칙이 숨은 매출 기록이라면, 같은 7일 창으로 누가 더 잘 맞힐까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-7"
+   ]
+  },
+  "lab:question/2-7-duel": {
+   "ko": "같은 7일 창으로 반동 매출 기록 E를 맞히면 누가 이기나?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-7"
+   ]
+  },
+  "lab:question/2-7-small-data": {
+   "ko": "데이터가 200개뿐인 곧은 매출 기록에서도 LSTM이 이길까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "2-7"
+   ]
+  },
+  "lab:concept/hidden-state": {
+   "ko": "숨은 상태",
+   "en": "hidden state",
+   "type": "Concept",
+   "pages": [
+    "3-1",
+    "3-7"
+   ]
+  },
+  "lab:method/hmm": {
+   "ko": "HMM (은닉 마르코프 모델)",
+   "en": "hidden Markov model",
+   "type": "Method",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:concept/markov-assumption": {
+   "ko": "마르코프 가정",
+   "en": "Markov assumption",
+   "type": "Concept",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:method/forward-algorithm": {
+   "ko": "전방 알고리즘",
+   "en": "forward algorithm",
+   "type": "Method",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:task/state-inference": {
+   "ko": "숨은 상태 추정",
+   "en": "hidden state inference",
+   "type": "Task",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:limitation/markov-short-memory": {
+   "ko": "직전 숨은 상태 하나에 역사를 압축",
+   "en": "single-state history compression",
+   "type": "Limitation",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:limitation/handmade-hidden-structure": {
+   "ko": "숨은 상태의 개수·뜻을 사람이 정함",
+   "en": "hand-designed hidden structure",
+   "type": "Limitation",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:limitation/unnamed-state": {
+   "ko": "이름 붙이기 어려운 숨은 벡터",
+   "en": "uninterpretable hidden vector",
+   "type": "Limitation",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:term/hidden-vector": {
+   "ko": "은닉 벡터 h",
+   "en": "hidden vector",
+   "type": "Term",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:analogy/weather-window": {
+   "ko": "창밖 하늘로 공기 상태 짐작하기",
+   "en": "weather window analogy",
+   "type": "Analogy",
+   "pages": [
+    "3-1",
+    "3-7"
+   ]
+  },
+  "lab:term/transition-probability": {
+   "ko": "전이 확률",
+   "en": "transition probability",
+   "type": "Term",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:term/emission-probability": {
+   "ko": "방출 확률",
+   "en": "emission probability",
+   "type": "Term",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:sim/3-1-hmm-forward": {
+   "ko": "HMM 전방 계산 실험",
+   "en": "HMM forward explorer",
+   "type": "Simulation",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:sim/3-1-hmm-vs-lstm": {
+   "ko": "HMM 확률 vs LSTM 은닉 벡터",
+   "en": "HMM posterior vs LSTM hidden vector",
+   "type": "Simulation",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:work/rabiner1989tutorial": {
+   "ko": "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
+   "en": "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
+   "type": "Work",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:claim/hmm-three-problems": {
+   "ko": "HMM은 관측 열의 확률을 전방 계산으로 구하고, 상태 전이와 방출 확률로 정의된다 (Rabiner 1989 튜토리얼)",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:question/3-1-core": {
+   "ko": "직접 볼 수 없는 상태를, 보이는 관측만으로 어떻게 짐작할 것인가?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:question/3-1-name-states": {
+   "ko": "LSTM의 숨은 벡터에 이름을 붙일 수 있을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-1"
+   ]
+  },
+  "lab:concept/linear-separability": {
+   "ko": "선형 분리",
+   "en": "linear separability",
+   "type": "Concept",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:concept/feature-lifting": {
+   "ko": "차원 확장",
+   "en": "feature lifting",
+   "type": "Concept",
+   "pages": [
+    "3-2",
+    "3-7"
+   ]
+  },
+  "lab:method/polynomial-regression": {
+   "ko": "다항 회귀",
+   "en": "polynomial regression",
+   "type": "Method",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:method/kernel-trick": {
+   "ko": "커널 트릭",
+   "en": "kernel trick",
+   "type": "Method",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:method/svm": {
+   "ko": "SVM (서포트 벡터 머신)",
+   "en": "support vector machine",
+   "type": "Method",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:limitation/feature-explosion": {
+   "ko": "특성 수 폭발",
+   "en": "combinatorial feature explosion",
+   "type": "Limitation",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:limitation/handpicked-kernel": {
+   "ko": "커널 모양은 사람이 고름",
+   "en": "hand-picked kernel",
+   "type": "Limitation",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:limitation/data-hungry-features": {
+   "ko": "확장을 배우려면 데이터가 많이 필요",
+   "en": "learned features need data",
+   "type": "Limitation",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:task/binary-classification": {
+   "ko": "두 무리 가르기 (이진 분류)",
+   "en": "binary classification",
+   "type": "Task",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:analogy/lift-marbles": {
+   "ko": "구슬을 높이로 들어 올리기",
+   "en": "lifting marbles",
+   "type": "Analogy",
+   "pages": [
+    "3-2",
+    "3-7"
+   ]
+  },
+  "lab:term/feature": {
+   "ko": "특성",
+   "en": "feature",
+   "type": "Term",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:term/inner-product": {
+   "ko": "내적",
+   "en": "inner product",
+   "type": "Term",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:sim/3-2-lift": {
+   "ko": "구슬 들어 올리기",
+   "en": "feature lifting demo",
+   "type": "Simulation",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:sim/3-2-explosion": {
+   "ko": "다항 특성 수 계산기",
+   "en": "polynomial feature counter",
+   "type": "Simulation",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:work/aizerman1964theoretical": {
+   "ko": "Theoretical Foundations of the Potential Function Method in Pattern Recognition Learning",
+   "en": "Theoretical Foundations of the Potential Function Method in Pattern Recognition Learning",
+   "type": "Work",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:work/cortes1995support": {
+   "ko": "Support-Vector Networks",
+   "en": "Support-Vector Networks",
+   "type": "Work",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:claim/potential-function-1964": {
+   "ko": "커널(퍼텐셜 함수) 방법의 초기 문헌은 1964년에 나왔다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:claim/svm-1995": {
+   "ko": "Cortes와 Vapnik(1995)은 서포트 벡터 네트워크(SVM)를 발표했다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:question/3-2-core": {
+   "ko": "낮은 차원에서 엉킨 것을, 축을 하나 더해 풀 수 있을까? 그 축은 누가 고르나?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:question/3-2-enough-data": {
+   "ko": "200일 매출 기록으로 확장 모양까지 배우는 것이 이득일까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-2"
+   ]
+  },
+  "lab:dataset/m4": {
+   "ko": "M4 대회",
+   "en": "M4 competition",
+   "type": "Dataset",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:method/es-rnn": {
+   "ko": "ES-RNN",
+   "en": "ES-RNN",
+   "type": "Method",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:concept/hybrid-model": {
+   "ko": "결합 모델 (하이브리드)",
+   "en": "hybrid model",
+   "type": "Concept",
+   "pages": [
+    "3-3",
+    "3-7"
+   ]
+  },
+  "lab:concept/data-size": {
+   "ko": "데이터 양",
+   "en": "training data size",
+   "type": "Concept",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:limitation/nn-data-hungry": {
+   "ko": "짧은 매출 기록에서는 신경망 결과가 크게 흔들린다",
+   "en": "unstable results on short series",
+   "type": "Limitation",
+   "pages": [
+    "3-3",
+    "3-7"
+   ]
+  },
+  "lab:concept/baseline": {
+   "ko": "기준선 (baseline)",
+   "en": "baseline",
+   "type": "Concept",
+   "pages": [
+    "3-3",
+    "3-7"
+   ]
+  },
+  "lab:analogy/control-group": {
+   "ko": "대조군 먼저 세우기",
+   "en": "control group",
+   "type": "Analogy",
+   "pages": [
+    "3-3",
+    "3-7"
+   ]
+  },
+  "lab:concept/capacity": {
+   "ko": "표현력",
+   "en": "model capacity",
+   "type": "Concept",
+   "pages": [
+    "3-3",
+    "3-4",
+    "3-5",
+    "3-7"
+   ]
+  },
+  "lab:sim/3-3-learning-curve": {
+   "ko": "훈련 길이별 검증 오차",
+   "en": "learning curve: AR vs MLP",
+   "type": "Simulation",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:sim/3-3-baselines": {
+   "ko": "기준선 네 개 막대",
+   "en": "baseline bars",
+   "type": "Simulation",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:work/makridakis2020m4": {
+   "ko": "The M4 Competition: 100,000 Time Series and 61 Forecasting Methods",
+   "en": "The M4 Competition: 100,000 Time Series and 61 Forecasting Methods",
+   "type": "Work",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:work/makridakis2018m4": {
+   "ko": "The M4 Competition: Results, Findings, Conclusion and Way Forward",
+   "en": "The M4 Competition: Results, Findings, Conclusion and Way Forward",
+   "type": "Work",
+   "pages": [
+    "3-3",
+    "3-7"
+   ]
+  },
+  "lab:work/uber2018m4": {
+   "ko": "M4 Forecasting Competition: Introducing a New Hybrid ES-RNN Model",
+   "en": "M4 Forecasting Competition: Introducing a New Hybrid ES-RNN Model",
+   "type": "Work",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:claim/m4-scale": {
+   "ko": "M4 대회는 시계열 100,000개와 예측 방법 61개를 비교했다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:claim/m4-pure-ml-worse": {
+   "ko": "M4에서 순수 ML 방법 6개는 모두 조합 기준선보다 부정확했다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-3",
+    "3-7"
+   ]
+  },
+  "lab:claim/m4-es-rnn-winner": {
+   "ko": "M4 1위는 통계와 ML 특성을 함께 쓴 하이브리드 방법이었다 (우승팀 쪽 글은 이를 Smyl의 ES-RNN으로 소개)",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:claim/m4-es-rnn-name": {
+   "ko": "우승 방법 ES-RNN은 지수평활 식과 RNN 예측 엔진을 섞었다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:question/3-3-core": {
+   "ko": "표현력이 큰 모델은 언제나 단순한 통계 모델을 이길까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:question/3-3-when-nn": {
+   "ko": "내 매출 기록에서는 며칠 치부터 신경망이 기준선을 넘을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-3"
+   ]
+  },
+  "lab:concept/loss-function": {
+   "ko": "손실 함수 (비용 함수)",
+   "en": "loss function",
+   "type": "Concept",
+   "pages": [
+    "3-4",
+    "3-5",
+    "3-7"
+   ]
+  },
+  "lab:method/gradient-descent": {
+   "ko": "경사하강법",
+   "en": "gradient descent",
+   "type": "Method",
+   "pages": [
+    "3-4",
+    "3-6"
+   ]
+  },
+  "lab:method/momentum": {
+   "ko": "모멘텀",
+   "en": "momentum",
+   "type": "Method",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:method/adam": {
+   "ko": "Adam",
+   "en": "Adam optimizer",
+   "type": "Method",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:method/backpropagation": {
+   "ko": "역전파",
+   "en": "backpropagation",
+   "type": "Method",
+   "pages": [
+    "3-4",
+    "3-6"
+   ]
+  },
+  "lab:limitation/vast-search-space": {
+   "ko": "넓은 공간은 다 뒤져 볼 수 없다",
+   "en": "search space too large to enumerate",
+   "type": "Limitation",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:limitation/lr-sensitivity": {
+   "ko": "학습률에 민감 (튕김·느림)",
+   "en": "learning-rate sensitivity",
+   "type": "Limitation",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:limitation/local-information": {
+   "ko": "기울기는 지금 자리의 정보뿐",
+   "en": "gradients are local",
+   "type": "Limitation",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:concept/inductive-learning": {
+   "ko": "귀납 (정답지에서 출발)",
+   "en": "inductive learning",
+   "type": "Concept",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:concept/deductive-modeling": {
+   "ko": "연역 (이론에서 출발)",
+   "en": "deductive modeling",
+   "type": "Concept",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:analogy/sales record-loss": {
+   "ko": "손실 = 매출 기록의 손해액",
+   "en": "loss as sales record deficit",
+   "type": "Analogy",
+   "pages": [
+    "3-4",
+    "3-7"
+   ]
+  },
+  "lab:term/learning-rate": {
+   "ko": "학습률",
+   "en": "learning rate",
+   "type": "Term",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:term/eta": {
+   "ko": "η",
+   "en": "eta",
+   "type": "Term",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:metric/mse": {
+   "ko": "MSE",
+   "en": "mean squared error",
+   "type": "Metric",
+   "pages": [
+    "3-4",
+    "3-5"
+   ]
+  },
+  "lab:sim/3-4-capacity": {
+   "ko": "은닉 뉴런 수와 곡선 맞추기",
+   "en": "capacity explorer",
+   "type": "Simulation",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:sim/3-4-descent": {
+   "ko": "손실 지형 위 공 굴리기",
+   "en": "optimizer descent on a loss bowl",
+   "type": "Simulation",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:claim/backprop-1986": {
+   "ko": "Rumelhart·Hinton·Williams(1986)는 역전파로 은닉층의 표현을 학습할 수 있음을 보였다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-4",
+    "3-6"
+   ]
+  },
+  "lab:question/3-4-core": {
+   "ko": "답이 들어 있을 만큼 넓은 공간을 만들고, 그 안에서 어떻게 빨리 답을 찾을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:question/3-4-third-axis": {
+   "ko": "너무 복잡하게 만들면 정답지를 외워 버리지 않을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-4"
+   ]
+  },
+  "lab:concept/generalization": {
+   "ko": "일반화",
+   "en": "generalization",
+   "type": "Concept",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:limitation/memorizing-answers": {
+   "ko": "정답지의 잡음까지 외움",
+   "en": "memorizing noise",
+   "type": "Limitation",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:method/early-stopping": {
+   "ko": "조기 종료",
+   "en": "early stopping",
+   "type": "Method",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:limitation/optimistic-validation": {
+   "ko": "고르는 데 쓴 검증 점수는 낙관적",
+   "en": "optimistic validation score",
+   "type": "Limitation",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:method/dropout": {
+   "ko": "드롭아웃",
+   "en": "dropout",
+   "type": "Method",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:method/l2-regularization": {
+   "ko": "L2 정규화",
+   "en": "L2 regularization",
+   "type": "Method",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:concept/underfitting": {
+   "ko": "과소적합",
+   "en": "underfitting",
+   "type": "Concept",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:limitation/too-strong-restraint": {
+   "ko": "절제가 너무 세면 과소적합",
+   "en": "over-regularization",
+   "type": "Limitation",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:analogy/memorize-workbook": {
+   "ko": "연습 문제 답만 외운 학생",
+   "en": "memorizing the workbook",
+   "type": "Analogy",
+   "pages": [
+    "3-5",
+    "3-7"
+   ]
+  },
+  "lab:term/lambda": {
+   "ko": "λ",
+   "en": "lambda",
+   "type": "Term",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:sim/3-5-ar-order": {
+   "ko": "AR 차수 복잡도 곡선",
+   "en": "AR order complexity curve",
+   "type": "Simulation",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:sim/3-5-early-stop": {
+   "ko": "조기 종료 손실 곡선",
+   "en": "early stopping curves",
+   "type": "Simulation",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:sim/3-5-l2": {
+   "ko": "L2 세기 비교",
+   "en": "L2 strength sweep",
+   "type": "Simulation",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:question/3-5-core": {
+   "ko": "훈련 점수가 계속 오르는데, 처음 보는 날의 점수는 왜 다시 떨어질까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:question/3-5-how-many-picks": {
+   "ko": "검증 데이터로 몇 번까지 골라도 괜찮을까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-5"
+   ]
+  },
+  "lab:bio/synapse": {
+   "ko": "시냅스",
+   "en": "synapse",
+   "type": "BioAnalogue",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:bio/firing-threshold": {
+   "ko": "발화 문턱",
+   "en": "firing threshold",
+   "type": "BioAnalogue",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:bio/fly-brain": {
+   "ko": "초파리 뇌",
+   "en": "adult fruit fly brain",
+   "type": "BioAnalogue",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:term/weight": {
+   "ko": "가중치",
+   "en": "weight",
+   "type": "Term",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:term/activation-function": {
+   "ko": "활성화 함수",
+   "en": "activation function",
+   "type": "Term",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:concept/artificial-neural-network": {
+   "ko": "인공신경망",
+   "en": "artificial neural network",
+   "type": "Concept",
+   "pages": [
+    "3-6",
+    "3-7"
+   ]
+  },
+  "lab:concept/connectome": {
+   "ko": "커넥톰",
+   "en": "connectome",
+   "type": "Concept",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:concept/sparse-connectivity": {
+   "ko": "희소 연결",
+   "en": "sparse connectivity",
+   "type": "Concept",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:concept/dense-connectivity": {
+   "ko": "밀집 연결 (dense)",
+   "en": "dense connectivity",
+   "type": "Concept",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:limitation/connectome-structure-only": {
+   "ko": "배선도는 구조일 뿐",
+   "en": "connectome is structure only",
+   "type": "Limitation",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:limitation/not-brain-like": {
+   "ko": "작동 원리는 뇌와 다름",
+   "en": "not brain-like in operation",
+   "type": "Limitation",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:concept/energy-efficiency": {
+   "ko": "에너지 효율",
+   "en": "energy efficiency",
+   "type": "Concept",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:analogy/borrowed-skeleton": {
+   "ko": "뇌에서 빌려 온 뼈대",
+   "en": "borrowed skeleton",
+   "type": "Analogy",
+   "pages": [
+    "3-6",
+    "3-7"
+   ]
+  },
+  "lab:term/spike": {
+   "ko": "스파이크",
+   "en": "spike",
+   "type": "Term",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:sim/3-6-spike": {
+   "ko": "스파이크 뉴런 vs 인공 뉴런",
+   "en": "spiking vs artificial neuron",
+   "type": "Simulation",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:sim/3-6-wiring": {
+   "ko": "밀집 vs 희소 배선",
+   "en": "dense vs sparse wiring",
+   "type": "Simulation",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:work/dorkenwald2024neuronal": {
+   "ko": "Neuronal Wiring Diagram of an Adult Brain",
+   "en": "Neuronal Wiring Diagram of an Adult Brain",
+   "type": "Work",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:work/balasubramanian2021brain": {
+   "ko": "Brain Power",
+   "en": "Brain Power",
+   "type": "Work",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:claim/flywire-counts": {
+   "ko": "다 자란 초파리 뇌 전체 배선도에는 뉴런 139,255개와 시냅스 5,450만 개 이상이 담겼다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:claim/brain-20w": {
+   "ko": "사람 뇌는 약 20 W의 에너지로 작동한다",
+   "en": "",
+   "type": "Claim",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:question/3-6-core": {
+   "ko": "인공“신경”망은 뇌에서 무엇을 빌려 왔고, 무엇은 전혀 다른가?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:question/3-6-energy": {
+   "ko": "뇌의 에너지 효율은 어디서 올까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-6"
+   ]
+  },
+  "lab:metric/aic": {
+   "ko": "AIC (아카이케 정보 기준)",
+   "en": "Akaike information criterion",
+   "type": "Metric",
+   "pages": [
+    "3-7"
+   ]
+  },
+  "lab:concept/sealed-test-comparison": {
+   "ko": "봉인 시험 비교",
+   "en": "sealed test comparison",
+   "type": "Concept",
+   "pages": [
+    "3-7"
+   ]
+  },
+  "lab:analogy/scale-draw": {
+   "ko": "수평인 저울",
+   "en": "balanced scale",
+   "type": "Analogy",
+   "pages": [
+    "3-7"
+   ]
+  },
+  "lab:sim/3-7-duel": {
+   "ko": "200일 매출 기록 대결 (AR vs LSTM)",
+   "en": "duel: AR(AIC) vs LSTM",
+   "type": "Simulation",
+   "pages": [
+    "3-7"
+   ]
+  },
+  "lab:sim/3-7-seal": {
+   "ko": "봉인 시험 비교",
+   "en": "sealed test comparison",
+   "type": "Simulation",
+   "pages": [
+    "3-7"
+   ]
+  },
+  "lab:question/3-7-core": {
+   "ko": "데이터가 200개뿐인 매출 기록에서, 제대로 세운 기준선과 LSTM 중 누가 이길까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-7"
+   ]
+  },
+  "lab:question/3-7-duel": {
+   "ko": "데이터가 200개뿐일 때, 제대로 세운 기준선과 LSTM 중 누가 이길까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-7"
+   ]
+  },
+  "lab:question/3-7-longer": {
+   "ko": "봉인 시험의 LSTM 우위는 다른 기간에서도 이어질까?",
+   "en": "",
+   "type": "Question",
+   "pages": [
+    "3-7"
+   ]
+  }
+ }
+}

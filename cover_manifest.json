@@ -122,6 +122,7 @@
       }
     ],
     "files": [
+      "KG_00_registry.json",
       "docs/KG_00_registry.json"
     ]
   },
@@ -160,7 +161,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Website top cover illustration, wide 16:9. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: wide night laboratory with test tube racks, stacks of lab notebooks, a blank chalkboard and a small server rack; a long paper ribbon stretches across the whole back wall from end to end, showing one hand-drawn line chart that rises and falls like daily sales, with no grid labels and no numbers; three empty transparent picture frames of different widths (short, medium, long) hang on the ribbon like sliding windows. All four characters together: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center back and stretching one arm along the ribbon to point at it; girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the front right side holding a clipboard with a blank checklist and looking up at the ribbon; anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, holding up the shortest frame with both hands against the ribbon; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, lifting the longest frame with its gray arms, the abacus bead on its antenna glowing softly. Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41. In the far background on a low bench, small and quiet: a chibi girl maid intern with long straight jet-black hair, charcoal-black maid dress and white apron holding a small plain flag; a chibi girl maid intern with long ash-beige wavy hair, white frilled headband and camel cardigan holding a pink teacup; and three tiny cute solid dark navy silhouettes with round white dot eyes and a thin purple rim light (one with a pink side-ponytail bow, one with a beret and teal glasses glints, one with a cat-ear hood and yellow pompoms). Visual metaphor of the topic: one long time-series line seen through windows of different lengths, without any text. Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the long chart ribbon and the three frames. Mood: curious, friendly rivalry, the moment before the result. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 121010,
+      "received": "2026-11-11",
+      "source": "assets/img/src/cover_index.png"
     },
     {
       "id": "cover_ch1",
@@ -179,7 +183,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Website top cover illustration, wide 16:9. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, with warm golden lamp light in this room. Scene: cozy accounting room beside the lab, a giant wooden abacus on the back wall, thick sales record books with blank striped pages, a round vault door, a brass scale; on a long wooden desk a very long strip of sales record pages is unrolled from left to right, one blank striped cell per day, and two empty wooden picture frames ride on a thin brass rail above it — a short frame placed near the start of the strip and a long frame placed much further along. All four characters together: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center back holding a small brass scale in one hand and glancing from one frame to the other; girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the back left side opening a thick leather sales record and turning a page; anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, pushing the short frame one step along the rail; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, standing beside the long frame and flicking a bead on a wooden abacus with one arm. Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41. Visual metaphor of the topic: a short window and a long window looking back over the same daily sales record, the long one starting later, without any text. Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the sales record strip and the two frames. Mood: curious, friendly rivalry, the moment before the result. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 173648,
+      "received": "2026-11-11",
+      "source": "assets/img/src/cover_ch1.png"
     },
     {
       "id": "cover_ch2",
@@ -198,7 +205,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Website top cover illustration, wide 16:9. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a small reading room with tall bookshelves and a rolling ladder, rendered as part of the same night lab world, purple lab light spilling in from one side; in the middle of a large desk stands one single empty wooden window frame. On the left half of the desk: a straight wooden ruler, a brass mechanical calculator and a flat clear glass plate. On the right half: open books from which glowing threads rise, weave together and form a softly curved shimmering cloth, with three tiny floating doors among the threads — one open, one half open, one closed. All four characters together: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center back and leaning over the window frame, both arms spread to point at the left side and the right side at the same time; girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing on the rolling ladder at the back right, pulling a book from the shelf and looking down at the desk; anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, one hand resting on the brass calculator keys and the other holding the straight ruler; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, winding a few glowing threads around its gray arm and gently opening one of the tiny doors. Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41. Visual metaphor of the topic: the same window read in two ways — a straight weighted sum on a flat plate versus woven threads forming a curved surface with small gates, without any text. Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the single window frame in the middle of the desk. Mood: curious, friendly rivalry, the moment before the result. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 144686,
+      "received": "2026-11-11",
+      "source": "assets/img/src/cover_ch2.png"
     },
     {
       "id": "cover_ch3",
@@ -217,7 +227,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Website top cover illustration, wide 16:9. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a small dark stage in a corner of the night lab, rendered as part of the same night lab world, purple lab light spilling in from behind a translucent curtain at the back, vague soft shadow shapes visible behind the curtain; on the floor lies a flat board scattered with mixed magenta and green dots; the dots float upward from the board into a glowing transparent glass cube hovering in the air, and inside the cube one thin sheet of light cleanly separates the magenta dots from the green dots. No microscope, no dissection tools. All four characters together: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center back raising both hands from low to high as if lifting the dots up into the cube; girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the back left side carefully holding a small box of wax-sealed envelopes in both arms; anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, crouching close to the flat board and inspecting the dots with a magnifying glass; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, looking up at the glowing cube with sparkling star-shaped pixel eyes on its screen. Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41. Visual metaphor of the topic: mixed points that cannot be split on a flat board become separable once lifted into a higher-dimensional cube, with hidden states as shadows behind a curtain, without any text. Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the glowing glass cube. Mood: curious, friendly rivalry, the moment before the result. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 138960,
+      "received": "2026-11-11",
+      "source": "assets/img/src/cover_ch3.png"
     },
     {
       "id": "thumb_1_1",
@@ -233,7 +246,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: an open sales record with a row of blank striped day cells; a small wooden window frame lies over the last few cells, and the next empty cell after them glows softly as tomorrow. Character: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, leaning over the frame with a magnifying glass. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 40612,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_1_1.png"
     },
     {
       "id": "thumb_1_2",
@@ -249,7 +265,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: a long sales record ribbon cut in time order into three pieces on the desk: a long piece, a medium piece, and the last short piece being slipped into an envelope with a red wax seal. Character: girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the desk holding large scissors in one hand and the sealed envelope in the other. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 39316,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_1_2.png"
     },
     {
       "id": "thumb_1_3",
@@ -265,7 +284,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: a wooden abacus whose rods are each linked by a thin glowing thread to one past sales record cell, and all the threads gather and flow into one single empty cell. Character: boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, flicking an abacus bead with one gray arm. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 36952,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_1_3.png"
     },
     {
       "id": "thumb_1_4",
@@ -281,7 +303,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: two paths across the desk: on the left a long chain of paper forecast cards stretching forward, each one fainter, inside a widening cone of mist; on the right the same chain where each card is being replaced, day by day, by a fresh real sales record page. Character: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center behind the desk, swapping one forecast card for a real sales record page. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 34844,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_1_4.png"
     },
     {
       "id": "thumb_1_5",
@@ -300,7 +325,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: three wooden window frames of different widths — narrow, medium and wide — on tiny wheels, racing side by side along a sales record strip laid on the floor like a running track. Characters: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, cheering with both gloved hands raised; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, cheering with its gray arms up, antenna bead glowing. Height ratio when characters appear together: scientist 1.00, girl researcher 0.90, maid interns slightly shorter than the girl researcher, robot 0.72 including treads and antenna, fruit fly 0.41. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 40130,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_1_5.png"
     },
     {
       "id": "thumb_1_6",
@@ -316,7 +344,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: three stacks of identical small training cards on the counting table, the first tall, the second a little shorter, the third shorter still. Character: girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, kneeling beside the stacks and holding a ruler against them to compare their heights. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 39272,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_1_6.png"
     },
     {
       "id": "thumb_1_7",
@@ -335,7 +366,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: a brass balance scale on the desk with a short wooden window frame on one pan and a long one on the other, perfectly level. Characters: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, arms crossed, curious; chibi girl maid intern (big head, about 2.5 heads tall, slightly shorter than the assistant), long straight jet-black hair to the waist with side-swept bangs, gray eyes, small silver earrings, no headdress, charcoal-black long-sleeved maid dress with white lace cuffs, large gray bow at the collar, long white frilled apron, in the center back as the referee, raising a small plain flag with no marks next to the scale; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, leaning forward eagerly. Height ratio when characters appear together: scientist 1.00, girl researcher 0.90, maid interns slightly shorter than the girl researcher, robot 0.72 including treads and antenna, fruit fly 0.41. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 36842,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_1_7.png"
     },
     {
       "id": "thumb_2_1",
@@ -354,7 +388,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a reading room with tall bookshelves rendered as part of the same night lab world, purple lab light spilling in from one side. Main focus: one small window frame hanging from the ceiling above two desks; under it, on the left desk, a brass mechanical calculator, and on the right desk, a thick open book. Characters: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, tapping the calculator keys; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, reading the thick book held in its gray arms. Height ratio when characters appear together: scientist 1.00, girl researcher 0.90, maid interns slightly shorter than the girl researcher, robot 0.72 including treads and antenna, fruit fly 0.41. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 33096,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_2_1.png"
     },
     {
       "id": "thumb_2_2",
@@ -370,7 +407,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a small workshop with brass pipes and levers rendered as part of the same night lab world, purple lab light spilling in from one side. Main focus: a conveyor belt carrying glowing beads passes through three small doors: at the first door some beads drop off, at the second door new beads are added, at the third door a little light leaks out. Character: boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, pulling one of three levers. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 38214,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_2_2.png"
     },
     {
       "id": "thumb_2_3",
@@ -386,7 +426,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a kitchen corner of the lab rendered as part of the same night lab world, purple lab light spilling in from one side. Main focus: two glass bowls: in the left bowl two colored liquids poured with measuring spoons settle into neat fixed stripes; in the right bowl the same two colors swirl together and create a brand-new third color pattern. Character: girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing between the bowls holding two measuring spoons, looking at the swirling bowl with surprise. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 40470,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_2_3.png"
     },
     {
       "id": "thumb_2_4",
@@ -402,7 +445,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a glass workshop rendered as part of the same night lab world, purple lab light spilling in from one side. Main focus: a flat clear glass sheet on a stand, and next to it a second glass sheet being gently bent into a smooth curve, with small colored dots resting along the curved surface. Character: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, in the center, bending the second glass sheet with both hands, a small purple spark at his fingertips. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 39664,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_2_4.png"
     },
     {
       "id": "thumb_2_5",
@@ -418,7 +464,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a map room with a large drafting table rendered as part of the same night lab world, purple lab light spilling in from one side. Main focus: a tangled scatter of magenta and green dots on the drafting table; a transparent grid sheet laid on top has been rotated and stretched so the dots now fall into two neat groups, separated by one straight ruler. Character: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, placing the straight ruler between the two groups. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 35532,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_2_5.png"
     },
     {
       "id": "thumb_2_6",
@@ -436,7 +485,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: on the left a workbench with hand-made measuring tools — a plain sliding strip and a hand-drawn wavy band; on the right glowing unnamed shapes form by themselves in the air above a robot. Characters: girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, at the left workbench, carefully shaping a hand-made strip; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, watching glowing shapes appear above its screen. Height ratio when characters appear together: scientist 1.00, girl researcher 0.90, maid interns slightly shorter than the girl researcher, robot 0.72 including treads and antenna, fruit fly 0.41. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 40874,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_2_6.png"
     },
     {
       "id": "thumb_2_7",
@@ -455,7 +507,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a reading room with tall bookshelves rendered as part of the same night lab world, purple lab light spilling in from one side. Main focus: on the wall a sales record bar chart shaped like a tent — bars rising to a peak and falling again, with no numbers; in front of it two identical small window frames. Characters: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, holding one small window frame; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, holding an identical small window frame; chibi girl maid intern (big head, about 2.5 heads tall, the smallest of the human characters), long ash-beige hair to the waist with wavy ends, white frilled maid headband, amber-brown eyes, camel knit cardigan over a white shirt with a red and navy plaid bow tie, white frilled apron, small in the back center, cheering with both fists, a pink teacup on a side table. Height ratio when characters appear together: scientist 1.00, girl researcher 0.90, maid interns slightly shorter than the girl researcher, robot 0.72 including treads and antenna, fruit fly 0.41. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 37590,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_2_7.png"
     },
     {
       "id": "thumb_3_1",
@@ -471,7 +526,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a small puppet theater in a corner of the lab rendered as part of the same night lab world, purple lab light spilling in from one side. Main focus: a translucent curtain hides a vague figure behind it; only colored marbles roll out one by one from the gap under the curtain. Character: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, crouching to examine the marbles with a magnifying glass. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 39146,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_3_1.png"
     },
     {
       "id": "thumb_3_2",
@@ -487,7 +545,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a quiet observatory room with a domed ceiling rendered as part of the same night lab world, purple lab light spilling in from one side. Main focus: a flat board of mixed magenta and green dots; the green dots rise on small springs to a higher level, and one thin sheet of light slides horizontally between the two heights. Character: chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, in the center, raising one hand as the springs lift the dots. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 37740,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_3_2.png"
     },
     {
       "id": "thumb_3_3",
@@ -506,7 +567,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: wide night laboratory with test tube racks, a box of sealed envelopes, stacks of lab notebooks, a blank chalkboard, a small server rack. Main focus: five plain wooden measuring sticks standing in a neat row at a starting line on the floor, and behind them a huge shiny complicated machine waiting. Characters: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, placing the last plain stick in the row; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, proudly patting the big shiny machine. Height ratio when characters appear together: scientist 1.00, girl researcher 0.90, maid interns slightly shorter than the girl researcher, robot 0.72 including treads and antenna, fruit fly 0.41. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 39014,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_3_3.png"
     },
     {
       "id": "thumb_3_4",
@@ -522,7 +586,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: endless rows of tall wooden drawer cabinets stretching far into the distance; a single lantern beam cuts straight down one aisle and lights up one drawer. Character: boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, rolling down the aisle holding the lantern high. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 39124,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_3_4.png"
     },
     {
       "id": "thumb_3_5",
@@ -538,7 +605,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: wide night laboratory with test tube racks, a box of sealed envelopes, stacks of lab notebooks, a blank chalkboard, a small server rack. Main focus: a cork board with scattered pins: one string zigzags tightly through every single pin, another string passes smoothly in a gentle curve. Character: girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, pulling out a pin from the zigzag string, thoughtful. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 39384,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_3_5.png"
     },
     {
       "id": "thumb_3_6",
@@ -556,7 +626,10 @@
       "robot": "none",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: night laboratory bench with a fluorescence microscope, petri dishes and fly vials, a monitor glowing with a magenta and green neuron point cloud. Main focus: next to the glowing neuron point cloud on the monitor, a blank chalkboard shows a very simple network of round nodes joined by straight lines, the two side by side. Characters: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, looking up from the microscope; chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, in the center back, gesturing from the neuron cloud to the simple network. Height ratio when characters appear together: scientist 1.00, girl researcher 0.90, maid interns slightly shorter than the girl researcher, robot 0.72 including treads and antenna, fruit fly 0.41. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 36902,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_3_6.png"
     },
     {
       "id": "thumb_3_7",
@@ -575,7 +648,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": "Index card thumbnail illustration, 3:2 landscape, 1200 x 800 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: cozy accounting room beside the lab, a giant wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale, warm golden lamp light. Main focus: a box of wax-sealed envelopes on the desk in front of the round vault door, one envelope just about to be opened with a letter opener; on a bench in the far background sit three tiny cute solid dark navy silhouettes with round white dot eyes and a thin purple rim light — one with a pink side-ponytail bow, one with a beret and teal glasses glints, one with a cat-ear hood and yellow pompoms — watching quietly. Characters: anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, holding its breath; girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, in the center, carefully cutting the seal with a letter opener; boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, waiting eagerly. Height ratio when characters appear together: scientist 1.00, girl researcher 0.90, maid interns slightly shorter than the girl researcher, robot 0.72 including treads and antenna, fruit fly 0.41. Keep it simple and readable when shown 400 pixels wide: one clear focal prop in the middle, large shapes, an uncluttered background, every face at least 60 pixels from the edges. Mood: curious and calm, no hint of who wins. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 39996,
+      "received": "2026-11-11",
+      "source": "assets/img/src/thumb_3_7.png"
     },
     {
       "id": "bg_index",
@@ -589,12 +665,15 @@
       "robot": "none",
       "prompt_en": "Wide page hero background, 8:3 landscape, 1920 x 720 pixels. Match the art style, proportions and colors of the attached reference images exactly (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights). Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents. Scene: a long night laboratory corridor seen in gentle one-point perspective, with a row of plain wooden doors on both sides; each door is slightly open and leaks a different colored light (warm gold, soft green, lavender, magenta, teal), as if every door is a different room of the same lab. At the far end of the corridor a long paper ribbon with one rising and falling line chart, no numbers, hangs across the wall. No characters, or at most four tiny distant silhouettes near the far end. Composition: keep the left 45% simple and calm (dark floor and wall) because the title text sits there; put the doors and colored light mostly on the right side. No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.",
       "source_of": null,
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 48678,
+      "received": "2026-11-11",
+      "source": "assets/img/src/bg_index.png"
     },
     {
       "id": "og_index",
       "role": "og",
-      "path": "assets/img/og_index.webp",
+      "path": "assets/img/og_index.jpg",
       "size": [
         1200,
         630
@@ -608,7 +687,10 @@
       "robot": "jupanbot-v2",
       "prompt_en": null,
       "source_of": "cover_index",
-      "status": "redraw"
+      "status": "ok",
+      "bytes": 142092,
+      "received": "2026-11-11",
+      "source": "assets/img/src/og_index.png"
     }
   ],
   "updated": "2026-11-11"
