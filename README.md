@@ -70,7 +70,7 @@ lookback 14일과 window 14일은 같은 말일까? 같은 창을 보고도 ARIM
 | `1_1_…html` ~ `3_7_…html` | 본문 21쪽 (그림이 모두 들어 있는 단일 파일) |
 | `*.en.html` 등 | 외국어판 |
 | `cover_manifest.json` | 표지·온톨로지·번역 현황 목록 |
-| `docs/` | 쪽별 이미지 명세서, 표지 지시문(`COVER_PROMPTS_timeseries.md`), 지식 색인 등록분 |
+| `docs/` | 쪽별 이미지 명세서, 표지 지시문(`COVER_PROMPTS_timeseries.md`, `THUMB_PROMPTS_timeseries.md`), 지식 색인 등록분 |
 
 로컬에서 볼 때는 HTML 파일을 브라우저로 바로 열면 됩니다.
 
@@ -159,7 +159,7 @@ At the end of Part 3 the sealed 50-day test set is opened once (LSTM 2.06, AR(30
 | `1_1_…html` – `3_7_…html` | 21 main pages (single files with all images embedded) |
 | `*.en.html` etc. | Translated editions |
 | `cover_manifest.json` | Status list of covers, ontology and translations |
-| `docs/` | Image specs per page, cover prompts (`COVER_PROMPTS_timeseries.md`), knowledge index registry |
+| `docs/` | Image specs per page, cover prompts (`COVER_PROMPTS_timeseries.md`, `THUMB_PROMPTS_timeseries.md`), knowledge index registry |
 
 To view locally, open the HTML files directly in a browser. References are listed in the Korean section above.
 
@@ -232,7 +232,7 @@ To view locally, open the HTML files directly in a browser. References are liste
 | `1_1_…html` ~ `3_7_…html` | 正文 21 页（图片全部内嵌的单文件） |
 | `*.zh.html` 等 | 外语版 |
 | `cover_manifest.json` | 封面·本体·翻译现状清单 |
-| `docs/` | 各页图像规格书、封面提示词（`COVER_PROMPTS_timeseries.md`）、知识索引登记 |
+| `docs/` | 各页图像规格书、封面提示词（`COVER_PROMPTS_timeseries.md`, `THUMB_PROMPTS_timeseries.md`）、知识索引登记 |
 
 本地查看时，直接用浏览器打开 HTML 文件即可。参考文献见上方韩语部分。
 
@@ -305,7 +305,7 @@ To view locally, open the HTML files directly in a browser. References are liste
 | `1_1_…html` 〜 `3_7_…html` | 本文 21 ページ（画像をすべて含む単一ファイル） |
 | `*.ja.html` など | 外国語版 |
 | `cover_manifest.json` | 表紙・オントロジー・翻訳の状況一覧 |
-| `docs/` | ページごとの画像仕様書、表紙の指示文（`COVER_PROMPTS_timeseries.md`）、知識インデックスの登録分 |
+| `docs/` | ページごとの画像仕様書、表紙の指示文（`COVER_PROMPTS_timeseries.md`, `THUMB_PROMPTS_timeseries.md`）、知識インデックスの登録分 |
 
 ローカルで見るときは、HTML ファイルをブラウザでそのまま開いてください。参考文献は上の韓国語セクションにあります。
 
@@ -378,7 +378,7 @@ Koreyscha asl nusxa va 6 ta tarjima mavjud.
 | `1_1_…html` – `3_7_…html` | Asosiy 21 sahifa (barcha rasmlar ichida boʻlgan yagona fayllar) |
 | `*.uz.html` va boshqalar | Tarjima nusxalari |
 | `cover_manifest.json` | Muqova, ontologiya va tarjima holati roʻyxati |
-| `docs/` | Sahifalar boʻyicha rasm spetsifikatsiyalari, muqova koʻrsatmalari (`COVER_PROMPTS_timeseries.md`), bilimlar indeksi roʻyxati |
+| `docs/` | Sahifalar boʻyicha rasm spetsifikatsiyalari, muqova koʻrsatmalari (`COVER_PROMPTS_timeseries.md`, `THUMB_PROMPTS_timeseries.md`), bilimlar indeksi roʻyxati |
 
 Kompyuterda koʻrish uchun HTML faylni brauzerda toʻgʻridan-toʻgʻri oching. Adabiyotlar roʻyxati yuqoridagi koreyscha boʻlimda.
 
@@ -451,7 +451,7 @@ Kompyuterda koʻrish uchun HTML faylni brauzerda toʻgʻridan-toʻgʻri oching. 
 | `1_1_…html` – `3_7_…html` | 21 основная страница (единые файлы со всеми рисунками внутри) |
 | `*.ru.html` и др. | Переводы |
 | `cover_manifest.json` | Список состояния обложек, онтологии и переводов |
-| `docs/` | Спецификации изображений по страницам, указания для обложек (`COVER_PROMPTS_timeseries.md`), реестр указателя знаний |
+| `docs/` | Спецификации изображений по страницам, указания для обложек (`COVER_PROMPTS_timeseries.md`, `THUMB_PROMPTS_timeseries.md`), реестр указателя знаний |
 
 Чтобы смотреть локально, откройте HTML-файлы прямо в браузере. Список литературы — в корейском разделе выше.
 
@@ -524,7 +524,7 @@ Cuối phần 3, tập kiểm tra 50 ngày được niêm phong sẽ được m�
 | `1_1_…html` – `3_7_…html` | 21 trang nội dung (tệp đơn chứa toàn bộ hình ảnh) |
 | `*.vi.html` v.v. | Các bản dịch |
 | `cover_manifest.json` | Danh sách tình trạng ảnh bìa, bản thể học và bản dịch |
-| `docs/` | Bản đặc tả hình ảnh từng trang, chỉ dẫn ảnh bìa (`COVER_PROMPTS_timeseries.md`), bản đăng ký chỉ mục kiến thức |
+| `docs/` | Bản đặc tả hình ảnh từng trang, chỉ dẫn ảnh bìa (`COVER_PROMPTS_timeseries.md`, `THUMB_PROMPTS_timeseries.md`), bản đăng ký chỉ mục kiến thức |
 
 Để xem trên máy, chỉ cần mở tệp HTML bằng trình duyệt. Tài liệu tham khảo nằm ở phần tiếng Hàn phía trên.
 

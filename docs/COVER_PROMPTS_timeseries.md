@@ -4,12 +4,14 @@ SKILL 18-14 규칙으로 쓴 글 표지 4장의 지시문이다. 표지마다 **
 
 | 키 | 붙는 페이지 | 장소 (앵커) | 주제 은유 | 상태 |
 |---|---|---|---|---|
-| `cover_index` | `00_index.html` (목차) | 밤의 연구실 전경 (B) | 벽을 가로지르는 긴 선 그래프 띠와 길이가 다른 창틀 셋 | 그릴 것 |
+| `cover_index` | `00_index.html` (목차) — 목차 헤드 배경·썸네일은 [`THUMB_PROMPTS_timeseries.md`](THUMB_PROMPTS_timeseries.md) | 밤의 연구실 전경 (B) | 벽을 가로지르는 긴 선 그래프 띠와 길이가 다른 창틀 셋 | 그릴 것 |
 | `cover_ch1` | `1_1_lookback_window.html` (1부 첫 쪽), 1-2~1-7은 띠로 재사용 | 회계실 (C 장부) | 장부 쪽 띠 위를 미끄러지는 짧은 창틀과 긴 창틀 | 그릴 것 |
 | `cover_ch2` | `2_1_calculator_vs_reader.html` (2부 첫 쪽), 2-2~2-7은 띠로 재사용 | 연구실 옆 독서실 (D 생활) | 같은 창틀 하나 — 한쪽은 곧은 자와 계산기, 다른 쪽은 빛나는 실이 엮여 휜 천 | 그릴 것 |
 | `cover_ch3` | `3_1_hidden_state.html` (3부 첫 쪽), 3-2~3-7은 띠로 재사용 | 연구실 한구석의 어두운 무대 (D 생활) | 평평한 점 판이 떠올라 빛나는 유리 정육면체 안에서 색별로 갈라짐 | 그릴 것 |
 
 **공통 참고 이미지 (함께 올리기):** 네 캐릭터 기본 그림 4장 — GitHub `adminmrobo/fruitfly-lab-expressions`의 `images/doctor/E13_neutral.png`, `images/haru/E13_neutral.png`, `images/fruitfly/E13_neutral.png`, `images/jupanbot/E13_neutral.png` (주판봇은 v2 기준 그림이 확정되면 그것으로 바꾼다). 첫 표지를 받은 뒤에는 그 표지도 함께 올려 화풍을 맞춘다.
+
+**키 비율 (캐릭터 팩 C3, 2026-11 갱신):** 박사 1.00 · 조수 0.90 · 주판봇 0.72 · 초파리 0.41.
 
 **규격 (네 장 공통):** 16:9, 가로 1920 이상 · 그림 안에 글자·숫자·로고 금지 · 얼굴·손·핵심 소품은 좌우 12%, 위 10%, 아래 18% 안쪽 · 왼쪽 아래 30% × 20%는 어둡고 단순하게(시리즈 이름 칩이 얹힘) · 결과를 암시하지 않는 **대결 전 장면**.
 
@@ -47,7 +49,7 @@ chibi scientist, thin teal rectangular glasses, spiky black hair with one white 
 girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the front right side holding a clipboard with a blank checklist and looking up at the ribbon;
 anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, holding up the shortest frame with both hands against the ribbon;
 boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, lifting the longest frame with its gray arms, the abacus bead on its antenna glowing softly.
-Size consistency: scientist is the tallest, the girl slightly shorter, the robot about half the scientist's height on its treads, the fruit fly about one third of the scientist's height.
+Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41.
 Visual metaphor of the topic: one long time-series line seen through windows of different lengths, without any text.
 Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the long chart ribbon and the three frames.
 Mood: curious, friendly rivalry, the moment before the result.
@@ -88,7 +90,7 @@ chibi scientist, thin teal rectangular glasses, spiky black hair with one white 
 girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the back left side opening a thick leather ledger and turning a page;
 anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, pushing the short frame one step along the rail;
 boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, standing beside the long frame and flicking a bead on a wooden abacus with one arm.
-Size consistency: scientist is the tallest, the girl slightly shorter, the robot about half the scientist's height on its treads, the fruit fly about one third of the scientist's height.
+Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41.
 Visual metaphor of the topic: a short window and a long window looking back over the same daily ledger, the long one starting later, without any text.
 Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the ledger strip and the two frames.
 Mood: curious, friendly rivalry, the moment before the result.
@@ -129,7 +131,7 @@ chibi scientist, thin teal rectangular glasses, spiky black hair with one white 
 girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing on the rolling ladder at the back right, pulling a book from the shelf and looking down at the desk;
 anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, one hand resting on the brass calculator keys and the other holding the straight ruler;
 boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, winding a few glowing threads around its gray arm and gently opening one of the tiny doors.
-Size consistency: scientist is the tallest, the girl slightly shorter, the robot about half the scientist's height on its treads, the fruit fly about one third of the scientist's height.
+Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41.
 Visual metaphor of the topic: the same window read in two ways — a straight weighted sum on a flat plate versus woven threads forming a curved surface with small gates, without any text.
 Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the single window frame in the middle of the desk.
 Mood: curious, friendly rivalry, the moment before the result.
@@ -170,7 +172,7 @@ chibi scientist, thin teal rectangular glasses, spiky black hair with one white 
 girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the back left side carefully holding a small box of wax-sealed envelopes in both arms;
 anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, crouching close to the flat board and inspecting the dots with a magnifying glass;
 boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, looking up at the glowing cube with sparkling star-shaped pixel eyes on its screen.
-Size consistency: scientist is the tallest, the girl slightly shorter, the robot about half the scientist's height on its treads, the fruit fly about one third of the scientist's height.
+Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41.
 Visual metaphor of the topic: mixed points that cannot be split on a flat board become separable once lifted into a higher-dimensional cube, with hidden states as shadows behind a curtain, without any text.
 Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the glowing glass cube.
 Mood: curious, friendly rivalry, the moment before the result.
