@@ -10,7 +10,7 @@
 | 제작 경로 | 직접 1장 (페이지에 넣음) · 외부 의뢰 0장 (챕터 공용은 IMG_00_index에서 의뢰) |
 | 의뢰 도구 | Genspark (기본) |
 | 진행 | 받음 0 / 의뢰 0 · 마지막 반영 아직 |
-| 캐릭터 팩 표정 | 13장 (팩 커밋 107ce63) |
+| 캐릭터 팩 표정 | 13장 (팩 커밋 86d04ac) |
 | 재사용 | 2장 (bg_c3, sc_c3_hero) |
 | 그림이 없을 때 | 페이지는 캐릭터 팩 표정과 CSS 배경·픽셀아트로 이미 완성 상태 |
 
@@ -201,7 +201,7 @@ SKILL 18-15 절차 그대로.
   ],
   "character_pack": {
     "repo": "adminmrobo/fruitfly-lab-expressions",
-    "commit": "107ce63"
+    "commit": "86d04ac"
   },
   "status_values": "pack | placed(직접, 넣음) | requested(의뢰) | received(받음) | applied(반영) | rejected(다시 의뢰)"
 }

@@ -3,22 +3,22 @@
 | 항목 | 내용 |
 |---|---|
 | 페이지 | 1_7_duel_summary.html |
-| 모드 / 주 앵커 | 교과서 / C 장부: 14쪽 vs 30쪽, 장부 대결 |
+| 모드 / 주 앵커 | 교과서 / C 매출: 14쪽 vs 30쪽, 매출 기록 대결 |
 | 시즌 | 기본 |
 | 대결 | lookback 14(초파리) vs 30(주판봇), 검증 MAE → 결과 R, 차이 약 0.42 (약 13%) |
 | 새로 그릴 그림 | P1 0장 (챕터 공용 bg·hero 재사용) · P2 0장 · P3 0장 |
 | 제작 경로 | 직접 2장 (페이지에 넣음) · 외부 의뢰 0장 (챕터 공용은 IMG_00_index에서 의뢰) |
 | 의뢰 도구 | Genspark (기본) |
 | 진행 | 받음 0 / 의뢰 0 · 마지막 반영 아직 |
-| 캐릭터 팩 표정 | 22장 (팩 커밋 107ce63) |
+| 캐릭터 팩 표정 | 32장 (팩 커밋 86d04ac) |
 | 재사용 | 2장 (bg_c1, sc_c1_hero) |
 | 그림이 없을 때 | 페이지는 캐릭터 팩 표정과 CSS 배경·픽셀아트로 이미 완성 상태 |
 
 ## 1. 그림체와 고정 외형
 - 스타일: SKILL 18-3 (16비트 SNES 시대 픽셀 아트, 굵은 외곽선, 디더링 음영)
 - 캐릭터 고정 외형: SKILL 18-4 표 그대로 (공식 저장소 `CHARACTER_CORE_EN`)
-- 이 페이지 장소: 연구실 옆 회계실 — 큰 주판, 가죽 장부(빈 줄무늬 쪽), 원형 금고 문, 놋쇠 저울
-- 장소 영어 묘사: *cozy accounting room beside the lab, a large wooden abacus, leather ledgers with blank striped pages, a round vault door, a brass scale*
+- 이 페이지 장소: 연구실 옆 회계실 — 큰 주판, 가죽 매출 기록(빈 줄무늬 쪽), 원형 금고 문, 놋쇠 저울
+- 장소 영어 묘사: *cozy accounting room beside the lab, a large wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale*
 
 ## 2. 필요한 그림 전체
 
@@ -42,14 +42,24 @@
 | 16 | fly_e14 | C | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
 | 17 | fly_e16 | C | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
 | 18 | fly_e21 | C | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
-| 19 | robo_e12 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
-| 20 | robo_e13 | D | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
-| 21 | robo_e14 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
-| 22 | robo_e16 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
-| 23 | robo_e18 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
-| 24 | robo_e20 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
-| 25 | thumb_1_7 | I | 600×400 | 넣음 | 직접 (목차 카드: CSS 배경 + 팩 표정 합성) | P2 | 00_index 카드 | 색 카드 |
-| 26 | sc_c1_outro | E | 1200×800 | 넣음 (합성본) | 직접 → 외부 선택 | P2 | 아웃트로 | 팩 표정 말풍선 4개 |
+| 19 | moa_e01 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 20 | moa_e12 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 21 | moa_e13 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 22 | robo_e12 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 23 | robo_e13 | D | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 24 | robo_e14 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 25 | robo_e16 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 26 | robo_e18 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 27 | robo_e20 | D | 팩 192 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 28 | sia_e06 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 29 | sia_e10 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 30 | sia_e13 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 31 | sia_e16 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 32 | x1_e13 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 33 | x2_e13 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 34 | x3_e13 | A | 팩 96 | 팩 | — | — | 말풍선·대화창 · 대결 | — |
+| 35 | thumb_1_7 | I | 600×400 | 넣음 | 직접 (목차 카드: CSS 배경 + 팩 표정 합성) | P2 | 00_index 카드 | 색 카드 |
+| 36 | sc_c1_outro | E | 1200×800 | 넣음 (합성본) | 직접 → 외부 선택 | P2 | 아웃트로 | 팩 표정 말풍선 4개 |
 | — | 행동으로 보기, 히어로 픽셀아트 | — | — | 코드 | 직접 | — | 부록 A 픽셀 지도 | — |
 
 ## 3. 새로 그릴 그림 상세
@@ -72,7 +82,7 @@ SKILL 18-15 절차 그대로.
 ```json
 {
   "page": "1_7_duel_summary",
-  "anchor": "C:14쪽 vs 30쪽, 장부 대결",
+  "anchor": "C:14쪽 vs 30쪽, 매출 기록 대결",
   "season": "default",
   "duel": {
     "result": "R",
@@ -93,7 +103,7 @@ SKILL 18-15 절차 그대로.
       "priority": "P1",
       "slot": "hero-bg",
       "fallback": "css",
-      "alt": "연구실 옆 회계실에 큰 주판과 펼친 장부가 놓인 장면"
+      "alt": "연구실 옆 회계실에 큰 주판과 펼친 매출 기록이 놓인 장면"
     },
     {
       "key": "sc_c1_hero",
@@ -222,6 +232,27 @@ SKILL 18-15 절차 그대로.
       "alt": ""
     },
     {
+      "key": "moa_e01",
+      "pack": "moa_e01",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
+      "key": "moa_e12",
+      "pack": "moa_e12",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
+      "key": "moa_e13",
+      "pack": "moa_e13",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
       "key": "robo_e12",
       "pack": "robo_e12",
       "plate": "D",
@@ -264,6 +295,55 @@ SKILL 18-15 절차 그대로.
       "alt": ""
     },
     {
+      "key": "sia_e06",
+      "pack": "sia_e06",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
+      "key": "sia_e10",
+      "pack": "sia_e10",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
+      "key": "sia_e13",
+      "pack": "sia_e13",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
+      "key": "sia_e16",
+      "pack": "sia_e16",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
+      "key": "x1_e13",
+      "pack": "x1_e13",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
+      "key": "x2_e13",
+      "pack": "x2_e13",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
+      "key": "x3_e13",
+      "pack": "x3_e13",
+      "plate": "A",
+      "status": "pack",
+      "alt": ""
+    },
+    {
       "key": "thumb_1_7",
       "plate": "I",
       "size": [
@@ -278,7 +358,7 @@ SKILL 18-15 절차 그대로.
   ],
   "character_pack": {
     "repo": "adminmrobo/fruitfly-lab-expressions",
-    "commit": "107ce63"
+    "commit": "86d04ac"
   },
   "status_values": "pack | placed(직접, 넣음) | requested(의뢰) | received(받음) | applied(반영) | rejected(다시 의뢰)"
 }

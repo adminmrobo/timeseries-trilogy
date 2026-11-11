@@ -5,7 +5,7 @@ SKILL 18-14 규칙으로 쓴 글 표지 4장의 지시문이다. 표지마다 **
 | 키 | 붙는 페이지 | 장소 (앵커) | 주제 은유 | 상태 |
 |---|---|---|---|---|
 | `cover_index` | `00_index.html` (목차) — 목차 헤드 배경·썸네일은 [`THUMB_PROMPTS_timeseries.md`](THUMB_PROMPTS_timeseries.md) | 밤의 연구실 전경 (B) | 벽을 가로지르는 긴 선 그래프 띠와 길이가 다른 창틀 셋 | 그릴 것 |
-| `cover_ch1` | `1_1_lookback_window.html` (1부 첫 쪽), 1-2~1-7은 띠로 재사용 | 회계실 (C 장부) | 장부 쪽 띠 위를 미끄러지는 짧은 창틀과 긴 창틀 | 그릴 것 |
+| `cover_ch1` | `1_1_lookback_window.html` (1부 첫 쪽), 1-2~1-7은 띠로 재사용 | 회계실 (C 매출 기록) | 매출 기록 쪽 띠 위를 미끄러지는 짧은 창틀과 긴 창틀 | 그릴 것 |
 | `cover_ch2` | `2_1_calculator_vs_reader.html` (2부 첫 쪽), 2-2~2-7은 띠로 재사용 | 연구실 옆 독서실 (D 생활) | 같은 창틀 하나 — 한쪽은 곧은 자와 계산기, 다른 쪽은 빛나는 실이 엮여 휜 천 | 그릴 것 |
 | `cover_ch3` | `3_1_hidden_state.html` (3부 첫 쪽), 3-2~3-7은 띠로 재사용 | 연구실 한구석의 어두운 무대 (D 생활) | 평평한 점 판이 떠올라 빛나는 유리 정육면체 안에서 색별로 갈라짐 | 그릴 것 |
 
@@ -26,6 +26,7 @@ SKILL 18-14 규칙으로 쓴 글 표지 4장의 지시문이다. 표지마다 **
 | 키 · 판 | cover_index (= cover_series) · L (16:9, 1920 이상) |
 | 장소 (앵커) | 밤의 연구실 전경 (B) |
 | 주제 은유 | 연구실 벽을 끝에서 끝까지 가로지르는 긴 종이 띠에 그려진 오르내리는 선 그래프(눈금·숫자 없음), 그 위에 길이가 다른 투명 창틀 셋(짧음·중간·긺)이 걸려 있다 |
+| 새 식구 | 뒤쪽 낮은 벤치에 작게: 인턴 시아(깃발), 인턴 모아(찻잔), 미공개 실루엣 X1~X3 (캐릭터 팩 C9 — 이름 없이 방청석으로만) |
 | 네 캐릭터 포즈 | 박사: 가운데 뒤에서 그래프 띠를 따라 손을 길게 뻗어 가리킨다 / 조수: 오른쪽 앞 옆에서 빈 체크리스트가 끼워진 클립보드를 들고 띠를 올려다본다 / 초파리: 왼쪽에서 오른쪽을 보며 가장 짧은 창틀을 두 손으로 들어 띠에 대 본다 / 주판봇: 오른쪽에서 왼쪽을 보며 가장 긴 창틀을 회색 팔로 받쳐 들고, 안테나 끝 주판알이 빛난다 |
 | 대체 글 (alt) | 밤의 연구실 벽을 가로지르는 긴 선 그래프 띠 앞에서, 초파리 연구원은 짧은 창틀을, 주판봇은 긴 창틀을 들어 보이고 박사와 조수가 함께 지켜보는 장면 |
 | 앞 표지와 다른 점 | 시리즈 첫 표지. 이후 표지는 이 장소·소품(긴 그래프 띠, 세 창틀)을 다시 쓰지 않는다 |
@@ -50,6 +51,7 @@ girl researcher, long pink hair with two round buns and a navy streak, blue eyes
 anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, holding up the shortest frame with both hands against the ribbon;
 boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, lifting the longest frame with its gray arms, the abacus bead on its antenna glowing softly.
 Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41.
+In the far background on a low bench, small and quiet: a chibi girl maid intern with long straight jet-black hair, charcoal-black maid dress and white apron holding a small plain flag; a chibi girl maid intern with long ash-beige wavy hair, white frilled headband and camel cardigan holding a pink teacup; and three tiny cute solid dark navy silhouettes with round white dot eyes and a thin purple rim light (one with a pink side-ponytail bow, one with a beret and teal glasses glints, one with a cat-ear hood and yellow pompoms).
 Visual metaphor of the topic: one long time-series line seen through windows of different lengths, without any text.
 Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the long chart ribbon and the three frames.
 Mood: curious, friendly rivalry, the moment before the result.
@@ -65,11 +67,11 @@ No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol
 | 항목 | 내용 |
 |---|---|
 | 키 · 판 | cover_ch1 · L (16:9, 1920 이상) |
-| 장소 (앵커) | 연구실 옆 회계실 (C 장부) |
-| 주제 은유 | 책상 위로 길게 펼쳐진 장부 쪽 띠(하루 한 칸씩, 빈 줄무늬 칸) 위를 짧은 창틀과 긴 창틀이 레일을 따라 미끄러진다. 짧은 창틀은 띠의 앞쪽부터, 긴 창틀은 한참 뒤쪽부터 놓여 있다 (긴 창은 늦게 시작한다) |
-| 네 캐릭터 포즈 | 박사: 가운데 뒤에서 놋쇠 저울을 한 손에 들고 두 창틀을 번갈아 본다 / 조수: 왼쪽 뒤 옆에서 두꺼운 가죽 장부를 펼쳐 쪽을 넘긴다 / 초파리: 왼쪽 앞에서 오른쪽을 보며 짧은 창틀을 레일 위로 한 칸 밀고 있다 / 주판봇: 오른쪽 앞에서 왼쪽을 보며 긴 창틀 옆에 서서 한 팔로 큰 나무 주판알을 튕긴다 |
-| 대체 글 (alt) | 따뜻한 램프가 켜진 회계실에서 길게 펼친 장부 띠 위로 초파리 연구원은 짧은 창틀을, 주판봇은 긴 창틀을 밀고, 박사가 저울을 들고 조수가 장부를 넘기는 장면 |
-| 앞 표지와 다른 점 | 목차의 벽 그래프 대신 책상 위 장부 띠, 창틀 둘(짧음·긺)만. 박사는 가리키는 대신 저울, 조수는 클립보드 대신 장부. 장소가 연구실 전경에서 회계실로 |
+| 장소 (앵커) | 연구실 옆 회계실 (C 매출 기록) |
+| 주제 은유 | 책상 위로 길게 펼쳐진 매출 기록 쪽 띠(하루 한 칸씩, 빈 줄무늬 칸) 위를 짧은 창틀과 긴 창틀이 레일을 따라 미끄러진다. 짧은 창틀은 띠의 앞쪽부터, 긴 창틀은 한참 뒤쪽부터 놓여 있다 (긴 창은 늦게 시작한다) |
+| 네 캐릭터 포즈 | 박사: 가운데 뒤에서 놋쇠 저울을 한 손에 들고 두 창틀을 번갈아 본다 / 조수: 왼쪽 뒤 옆에서 두꺼운 가죽 매출 기록을 펼쳐 쪽을 넘긴다 / 초파리: 왼쪽 앞에서 오른쪽을 보며 짧은 창틀을 레일 위로 한 칸 밀고 있다 / 주판봇: 오른쪽 앞에서 왼쪽을 보며 긴 창틀 옆에 서서 한 팔로 큰 나무 주판알을 튕긴다 |
+| 대체 글 (alt) | 따뜻한 램프가 켜진 회계실에서 길게 펼친 매출 기록 띠 위로 초파리 연구원은 짧은 창틀을, 주판봇은 긴 창틀을 밀고, 박사가 저울을 들고 조수가 매출 기록을 넘기는 장면 |
+| 앞 표지와 다른 점 | 목차의 벽 그래프 대신 책상 위 매출 기록 띠, 창틀 둘(짧음·긺)만. 박사는 가리키는 대신 저울, 조수는 클립보드 대신 매출 기록. 장소가 연구실 전경에서 회계실로 |
 
 **Genspark에 붙여 넣기 ↓**
 ```
@@ -84,15 +86,15 @@ Website top cover illustration, wide 16:9.
 Match the art style, proportions and colors of the attached reference images exactly
 (if there are no reference images: 16-bit RPG style pixel art, bold dark outline, 2–3 tone shading, small highlights).
 Cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, with warm golden lamp light in this room.
-Scene: cozy accounting room beside the lab, a giant wooden abacus on the back wall, leather ledgers with blank striped pages, a round vault door, a brass scale; on a long wooden desk a very long strip of ledger pages is unrolled from left to right, one blank striped cell per day, and two empty wooden picture frames ride on a thin brass rail above it — a short frame placed near the start of the strip and a long frame placed much further along.
+Scene: cozy accounting room beside the lab, a giant wooden abacus on the back wall, thick sales record books with blank striped pages, a round vault door, a brass scale; on a long wooden desk a very long strip of sales record pages is unrolled from left to right, one blank striped cell per day, and two empty wooden picture frames ride on a thin brass rail above it — a short frame placed near the start of the strip and a long frame placed much further along.
 All four characters together:
 chibi scientist, thin teal rectangular glasses, spiky black hair with one white streak, small ponytail at the back, white lab coat over black vest and tie, standing in the center back holding a small brass scale in one hand and glancing from one frame to the other;
-girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the back left side opening a thick leather ledger and turning a page;
+girl researcher, long pink hair with two round buns and a navy streak, blue eyes, white lab coat over lavender hoodie, jeans, standing at the back left side opening a thick leather sales record and turning a page;
 anthropomorphic fruit fly researcher, black body, big red compound eyes, blue helmet with a gold stripe and pink and blue cables, white lab coat over a black vest, black gloves, transparent wings, on the left facing right, pushing the short frame one step along the rail;
 boxy beige retro CRT-monitor robot, dark green screen face with mint pixel eyes and mouth, short antenna topped with a red-brown abacus bead, gray segmented arms, two small tank treads, on the right facing left, standing beside the long frame and flicking a bead on a wooden abacus with one arm.
 Height ratio: scientist 1.00, girl 0.90, robot 0.72 including treads and antenna, fruit fly 0.41.
-Visual metaphor of the topic: a short window and a long window looking back over the same daily ledger, the long one starting later, without any text.
-Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the ledger strip and the two frames.
+Visual metaphor of the topic: a short window and a long window looking back over the same daily sales record, the long one starting later, without any text.
+Composition: keep every face and hand inside the central safe area (12% margin left and right, 10% top, 18% bottom); keep the bottom-left corner dark and simple; the light falls on the sales record strip and the two frames.
 Mood: curious, friendly rivalry, the moment before the result.
 No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands.
 ```
@@ -188,6 +190,6 @@ No text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol
 - [x] 네 장 모두 네 캐릭터의 18-4 영어 묘사, 좌우 방향(초파리 왼쪽→오른쪽, 주판봇 오른쪽→왼쪽), 안전 영역, 금지 구절이 들어감
 - [x] 결과 암시 없음 (네 장 모두 대결 전 장면, 승자 배치 없음)
 - [x] 생물 앵커가 아닌 챕터에 현미경·해부 소품 없음 (3부는 명시적으로 뺌)
-- [x] 표지끼리 장소(연구실 전경·회계실·독서실·무대)·소품(그래프 띠·장부 띠·창틀 하나·정육면체)·포즈가 겹치지 않음
+- [x] 표지끼리 장소(연구실 전경·회계실·독서실·무대)·소품(그래프 띠·매출 기록 띠·창틀 하나·정육면체)·포즈가 겹치지 않음
 - [ ] 받은 뒤 390·768·1280 폭에서 얼굴 잘림 확인 (반영할 때)
 - [ ] 1600 WebP 220 KB 이하 (반영할 때)

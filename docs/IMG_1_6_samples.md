@@ -3,22 +3,22 @@
 | 항목 | 내용 |
 |---|---|
 | 페이지 | 1_6_samples.html |
-| 모드 / 주 앵커 | 교과서 / C 장부: 연습 문제 몇 장을 만들 수 있나 |
+| 모드 / 주 앵커 | 교과서 / C 매출: 연습 문제 몇 장을 만들 수 있나 |
 | 시즌 | 기본 |
 | 대결 | 이 페이지에는 대결 없음 (챕터 마지막 페이지에 있음) |
 | 새로 그릴 그림 | P1 0장 (챕터 공용 bg·hero 재사용) · P2 0장 · P3 0장 |
 | 제작 경로 | 직접 1장 (페이지에 넣음) · 외부 의뢰 0장 (챕터 공용은 IMG_00_index에서 의뢰) |
 | 의뢰 도구 | Genspark (기본) |
 | 진행 | 받음 0 / 의뢰 0 · 마지막 반영 아직 |
-| 캐릭터 팩 표정 | 11장 (팩 커밋 107ce63) |
+| 캐릭터 팩 표정 | 11장 (팩 커밋 86d04ac) |
 | 재사용 | 2장 (bg_c1, sc_c1_hero) |
 | 그림이 없을 때 | 페이지는 캐릭터 팩 표정과 CSS 배경·픽셀아트로 이미 완성 상태 |
 
 ## 1. 그림체와 고정 외형
 - 스타일: SKILL 18-3 (16비트 SNES 시대 픽셀 아트, 굵은 외곽선, 디더링 음영)
 - 캐릭터 고정 외형: SKILL 18-4 표 그대로 (공식 저장소 `CHARACTER_CORE_EN`)
-- 이 페이지 장소: 연구실 옆 회계실 — 큰 주판, 가죽 장부(빈 줄무늬 쪽), 원형 금고 문, 놋쇠 저울
-- 장소 영어 묘사: *cozy accounting room beside the lab, a large wooden abacus, leather ledgers with blank striped pages, a round vault door, a brass scale*
+- 이 페이지 장소: 연구실 옆 회계실 — 큰 주판, 가죽 매출 기록(빈 줄무늬 쪽), 원형 금고 문, 놋쇠 저울
+- 장소 영어 묘사: *cozy accounting room beside the lab, a large wooden abacus, thick sales record books with blank striped pages, a round vault door, a brass scale*
 
 ## 2. 필요한 그림 전체
 
@@ -77,7 +77,7 @@ SKILL 18-15 절차 그대로.
       "priority": "P1",
       "slot": "hero-bg",
       "fallback": "css",
-      "alt": "연구실 옆 회계실에 큰 주판과 펼친 장부가 놓인 장면"
+      "alt": "연구실 옆 회계실에 큰 주판과 펼친 매출 기록이 놓인 장면"
     },
     {
       "key": "sc_c1_hero",
@@ -185,7 +185,7 @@ SKILL 18-15 절차 그대로.
   ],
   "character_pack": {
     "repo": "adminmrobo/fruitfly-lab-expressions",
-    "commit": "107ce63"
+    "commit": "86d04ac"
   },
   "status_values": "pack | placed(직접, 넣음) | requested(의뢰) | received(받음) | applied(반영) | rejected(다시 의뢰)"
 }
