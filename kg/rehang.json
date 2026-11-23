@@ -1,0 +1,530 @@
+{
+ "version": "1.0",
+ "made": "2026-11-24",
+ "via": "rehang-2026-11-24",
+ "domains": [
+  "stats",
+  "dl"
+ ],
+ "note": "분야 뼈대 주제에 다시 걸기(ai-lab-retrofit 15장). links는 자동 후보이며 틀린 줄은 지우면 된다. 빌드 스크립트가 있는 저장소는 빌드 끝에 rehang.apply_overlay()가 이 파일을 적용한다.",
+ "topics": {
+  "lab:topic/activation-function": {
+   "ko": "활성화 함수",
+   "en": "Activation function",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 2
+  },
+  "lab:topic/arima": {
+   "ko": "ARIMA",
+   "en": "ARIMA",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  },
+  "lab:topic/backpropagation": {
+   "ko": "역전파",
+   "en": "Backpropagation",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 2
+  },
+  "lab:topic/connectome": {
+   "ko": "커넥톰",
+   "en": "Connectome",
+   "domain": [
+    "ai",
+    "neuro"
+   ],
+   "level": 3
+  },
+  "lab:topic/cross-validation": {
+   "ko": "교차검증",
+   "en": "Cross-validation",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  },
+  "lab:topic/data-leakage": {
+   "ko": "데이터 누수",
+   "en": "Data leakage",
+   "domain": [
+    "ai",
+    "ml"
+   ],
+   "level": 2
+  },
+  "lab:topic/data-splitting": {
+   "ko": "훈련·검증·시험 분리",
+   "en": "Train/validation/test split",
+   "domain": [
+    "ai",
+    "ml"
+   ],
+   "level": 1
+  },
+  "lab:topic/dropout": {
+   "ko": "드롭아웃",
+   "en": "Dropout",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 3
+  },
+  "lab:topic/early-stopping": {
+   "ko": "조기 종료",
+   "en": "Early stopping",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 3
+  },
+  "lab:topic/feature-engineering": {
+   "ko": "특징 공학",
+   "en": "Feature engineering",
+   "domain": [
+    "ai",
+    "ml"
+   ],
+   "level": 1
+  },
+  "lab:topic/generalization": {
+   "ko": "일반화·과적합",
+   "en": "Generalization and overfitting",
+   "domain": [
+    "ai",
+    "ml"
+   ],
+   "level": 1
+  },
+  "lab:topic/gradient-descent": {
+   "ko": "경사하강법",
+   "en": "Gradient descent",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 2
+  },
+  "lab:topic/learning-rate-schedule": {
+   "ko": "학습률 조정",
+   "en": "Learning-rate schedules",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 2
+  },
+  "lab:topic/linear-regression": {
+   "ko": "선형 회귀",
+   "en": "Linear regression",
+   "domain": [
+    "ai",
+    "ml"
+   ],
+   "level": 2
+  },
+  "lab:topic/loss-function": {
+   "ko": "손실 함수",
+   "en": "Loss function",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 2
+  },
+  "lab:topic/lstm-gru": {
+   "ko": "LSTM·GRU",
+   "en": "LSTM and GRU",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 3
+  },
+  "lab:topic/mlp": {
+   "ko": "다층 퍼셉트론",
+   "en": "Multilayer perceptron",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 2
+  },
+  "lab:topic/regression-analysis": {
+   "ko": "회귀분석(단순·다중)",
+   "en": "Regression analysis (simple and multiple)",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/rnn": {
+   "ko": "순환 신경망",
+   "en": "Recurrent neural network",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 3
+  },
+  "lab:topic/stationarity": {
+   "ko": "정상성",
+   "en": "Stationarity",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  },
+  "lab:topic/svm": {
+   "ko": "서포트 벡터 머신",
+   "en": "Support vector machine",
+   "domain": [
+    "ai",
+    "ml"
+   ],
+   "level": 2
+  },
+  "lab:topic/time-series": {
+   "ko": "시계열 예측",
+   "en": "Time-series forecasting",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 3
+  },
+  "lab:topic/trend-seasonality": {
+   "ko": "추세·계절",
+   "en": "Trend and seasonality",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  },
+  "lab:topic/universal-approximation": {
+   "ko": "보편 근사 정리",
+   "en": "Universal approximation",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 2
+  },
+  "lab:topic/volatility-models": {
+   "ko": "변동성 모형(GARCH)",
+   "en": "Volatility models (GARCH)",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  },
+  "lab:topic/weight-decay": {
+   "ko": "가중치 감쇠(L2)",
+   "en": "Weight decay (L2)",
+   "domain": [
+    "ai",
+    "dl"
+   ],
+   "level": 3
+  }
+ },
+ "links": {
+  "lab:concept/ar-order": {
+   "topic": "lab:topic/arima",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "AR 차수 p"
+  },
+  "lab:concept/connectome": {
+   "topic": "lab:topic/connectome",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "커넥톰"
+  },
+  "lab:concept/data-leakage": {
+   "topic": "lab:topic/data-leakage",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "데이터 누수"
+  },
+  "lab:concept/hidden-state": {
+   "topic": "lab:topic/rnn",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "숨은 상태"
+  },
+  "lab:concept/loss-function": {
+   "topic": "lab:topic/loss-function",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "손실 함수 (비용 함수)"
+  },
+  "lab:concept/model-selection": {
+   "topic": "lab:topic/cross-validation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "검증으로 고르기"
+  },
+  "lab:concept/overfitting": {
+   "topic": "lab:topic/generalization",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "과적합"
+  },
+  "lab:concept/recurrent-state-update": {
+   "topic": "lab:topic/rnn",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "상태 갱신 (한 칸씩 읽기)"
+  },
+  "lab:concept/temporal-split": {
+   "topic": "lab:topic/data-splitting",
+   "score": 2,
+   "why": "영어 이름 낱말이 모두 겹침",
+   "ko": "시간 순 분할"
+  },
+  "lab:concept/test-set": {
+   "topic": "lab:topic/data-splitting",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "시험 데이터"
+  },
+  "lab:concept/time-series": {
+   "topic": "lab:topic/time-series",
+   "score": 2,
+   "why": "개념 이름이 주제 이름에 들어 있음",
+   "ko": "시계열"
+  },
+  "lab:concept/universal-approximation": {
+   "topic": "lab:topic/universal-approximation",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "보편 근사 (원리상 가능)"
+  },
+  "lab:concept/validation-set": {
+   "topic": "lab:topic/data-splitting",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "검증 데이터"
+  },
+  "lab:concept/weekly-seasonality": {
+   "topic": "lab:topic/trend-seasonality",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "주간 패턴"
+  },
+  "lab:method/ar-model": {
+   "topic": "lab:topic/arima",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "AR(p) 자기회귀"
+  },
+  "lab:method/arima": {
+   "topic": "lab:topic/arima",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "ARIMA"
+  },
+  "lab:method/backpropagation": {
+   "topic": "lab:topic/backpropagation",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "역전파"
+  },
+  "lab:method/dropout": {
+   "topic": "lab:topic/dropout",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "드롭아웃"
+  },
+  "lab:method/early-stopping": {
+   "topic": "lab:topic/early-stopping",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "조기 종료"
+  },
+  "lab:method/feature-engineering": {
+   "topic": "lab:topic/feature-engineering",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "특성공학"
+  },
+  "lab:method/gradient-descent": {
+   "topic": "lab:topic/gradient-descent",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "경사하강법"
+  },
+  "lab:method/least-squares": {
+   "topic": "lab:topic/regression-analysis",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "최소제곱 추정"
+  },
+  "lab:method/linear-regression": {
+   "topic": "lab:topic/linear-regression",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "선형 회귀"
+  },
+  "lab:method/lstm": {
+   "topic": "lab:topic/lstm-gru",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "LSTM"
+  },
+  "lab:method/mlp": {
+   "topic": "lab:topic/mlp",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "MLP"
+  },
+  "lab:method/multi-step-forecast": {
+   "topic": "lab:topic/time-series",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "다단계 예측"
+  },
+  "lab:method/naive-forecast": {
+   "topic": "lab:topic/time-series",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "어제 값 그대로 (나이브 예측)"
+  },
+  "lab:method/random-split": {
+   "topic": "lab:topic/data-leakage",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "무작위 분할"
+  },
+  "lab:method/ridge": {
+   "topic": "lab:topic/weight-decay",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "능형 회귀 (정규화)"
+  },
+  "lab:method/rolling-forecast": {
+   "topic": "lab:topic/time-series",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "롤링 예측"
+  },
+  "lab:method/rolling-origin-eval": {
+   "topic": "lab:topic/cross-validation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "굴려 가는 원점 평가"
+  },
+  "lab:method/seasonal-naive": {
+   "topic": "lab:topic/trend-seasonality",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "계절 나이브"
+  },
+  "lab:method/svm": {
+   "topic": "lab:topic/svm",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "SVM (서포트 벡터 머신)"
+  },
+  "lab:term/activation-function": {
+   "topic": "lab:topic/activation-function",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "활성화 함수"
+  },
+  "lab:term/backpropagation": {
+   "topic": "lab:topic/backpropagation",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "역전파"
+  },
+  "lab:term/cell-state": {
+   "topic": "lab:topic/lstm-gru",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "셀 상태"
+  },
+  "lab:term/differencing": {
+   "topic": "lab:topic/stationarity",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "차분 (d)"
+  },
+  "lab:term/forget-gate": {
+   "topic": "lab:topic/lstm-gru",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "잊기 게이트"
+  },
+  "lab:term/gradient-descent": {
+   "topic": "lab:topic/gradient-descent",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "경사하강"
+  },
+  "lab:term/hidden-layer": {
+   "topic": "lab:topic/mlp",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "은닉층"
+  },
+  "lab:term/hidden-state": {
+   "topic": "lab:topic/rnn",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "은닉 상태"
+  },
+  "lab:term/input-gate": {
+   "topic": "lab:topic/lstm-gru",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "입력 게이트"
+  },
+  "lab:term/learning-rate": {
+   "topic": "lab:topic/learning-rate-schedule",
+   "score": 2,
+   "why": "개념 이름이 주제 이름에 들어 있음",
+   "ko": "학습률"
+  },
+  "lab:term/ma-term": {
+   "topic": "lab:topic/arima",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "이동평균항 (q)"
+  },
+  "lab:term/output-gate": {
+   "topic": "lab:topic/lstm-gru",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "출력 게이트"
+  },
+  "lab:term/sigmoid": {
+   "topic": "lab:topic/activation-function",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "σ"
+  },
+  "lab:term/tanh": {
+   "topic": "lab:topic/activation-function",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "tanh"
+  },
+  "lab:term/volatility": {
+   "topic": "lab:topic/volatility-models",
+   "score": 2,
+   "why": "개념 이름이 주제 이름에 들어 있음",
+   "ko": "변동성"
+  }
+ }
+}
